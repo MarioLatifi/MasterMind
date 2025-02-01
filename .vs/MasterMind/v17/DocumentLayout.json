@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermindlib\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermind\\regolamento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\regolamento.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermind\\partita.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partita.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermind\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermind\\difficolta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\difficolta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\downloads\\mastermind\\mastermind\\mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "MasterMindLib\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\ClassDiagram1.cd",
+              "RelativeToolTip": "MasterMindLib\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-01-31T16:32:25.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Partita.xaml",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Partita.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\Partita.xaml",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Partita.xaml",
+              "RelativeToolTip": "MasterMind\\Partita.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-31T15:55:13.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Difficolta.xaml",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Difficolta.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\Difficolta.xaml",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Difficolta.xaml",
+              "RelativeToolTip": "MasterMind\\Difficolta.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-31T15:54:43.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Regolamento.xaml",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Regolamento.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\Regolamento.xaml",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\Regolamento.xaml",
+              "RelativeToolTip": "MasterMind\\Regolamento.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-31T15:54:20.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Partita.cs",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\Partita.cs",
+              "RelativeDocumentMoniker": "MasterMindLib\\Partita.cs",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\Partita.cs",
+              "RelativeToolTip": "MasterMindLib\\Partita.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:50:46.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Giocatore.cs",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\Giocatore.cs",
+              "RelativeDocumentMoniker": "MasterMindLib\\Giocatore.cs",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\Giocatore.cs",
+              "RelativeToolTip": "MasterMindLib\\Giocatore.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA2wBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:42:52.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\MainWindow.xaml",
+              "RelativeToolTip": "MasterMind\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-31T15:42:02.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MasterMind\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MasterMind\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:42:02.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
