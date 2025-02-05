@@ -2,18 +2,28 @@
 {
     public class Giocatore
     {
+        public Giocatore(string name)
+        {
+            Name= name;
+        }
         public string Name
         {
             get => default;
-            set
+            private set
             {
+                //controlli
             }
         }
-
+        private List<Colors> _round;
+        public void addBallToCurrentRound(Colors Color)
+        {
+            //fai controllo per vedere se è grande quando la difficoltà prevista
+            _round.Add(Color);
+        }
         public int WonCounter
         {
             get => default;
-            set
+            private set
             {
             }
         }
@@ -21,7 +31,7 @@
         public int LostCounter
         {
             get => default;
-            set
+            private set
             {
             }
         }
@@ -29,9 +39,10 @@
         public int PlayedCounter
         {
             get => default;
-            set
+            private set
             {
             }
         }
+        
     }
 }

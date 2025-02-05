@@ -1,21 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="MasterMindLib.Giocatore">
-    <Position X="4.25" Y="3" Width="1.5" />
+  <Class Name="MasterMindLib.MasterMindPc">
+    <Position X="9.25" Y="0.5" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAEAAAAAAAAAAQAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MasterMindPc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterMindLib.Giocatore">
+    <Position X="6" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAEAAAAAAAEAAQAAAAAAAAAAABAAAAQAAA=</HashCode>
       <FileName>Giocatore.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MasterMindLib.Partita">
-    <Position X="9.25" Y="2.75" Width="1.5" />
+    <Position X="1.5" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAQAACAAAAAAAQAA4AAAAAAAgAgAAAAAAEAAQAAAAAA=</HashCode>
+      <HashCode>AAQQACAAAAAAAAAEoAAAACAAgAgAAAAAAAAAQAAAAAA=</HashCode>
       <FileName>Partita.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Giocatore" />
+      <Property Name="Giocatore1" />
     </ShowAsAssociation>
   </Class>
+  <Enum Name="Colors">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAAgAQIAAAAAAAABAAkAAAAAAEAAAAAAgAAA=</HashCode>
+      <FileName>Partita.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

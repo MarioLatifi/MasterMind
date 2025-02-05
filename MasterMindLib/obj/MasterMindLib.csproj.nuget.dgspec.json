@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {}
+    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "projectUniqueName": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
         "projectName": "MasterMindLib",
-        "projectPath": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
         "packagesPath": "C:\\Users\\mario.latifi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario.latifi\\Downloads\\MasterMind\\MasterMind\\MasterMindLib\\obj\\",
+        "outputPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
