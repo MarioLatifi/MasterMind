@@ -8,14 +8,11 @@ namespace MasterMindLib
 {
     public class MasterMindPc
     {
-        public MasterMindPc()
-        {
-
-        }
-        public List<Colors> Code { get; }
+        public Colors[] Code { get; }
         public List<Colors> GenerateCode()
         {
             throw new NotImplementedException();
         }
+
     }
 }

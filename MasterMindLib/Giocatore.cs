@@ -14,12 +14,6 @@
                 //controlli
             }
         }
-        private List<Colors> _round;
-        public void addBallToCurrentRound(Colors Color)
-        {
-            //fai controllo per vedere se è grande quando la difficoltà prevista
-            _round.Add(Color);
-        }
         public int WonCounter
         {
             get => default;

@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MasterMindLib.Giocatore">
-    <Position X="6" Y="2.25" Width="2.5" />
+    <Position X="6" Y="4" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAEAAAAAAAEAAQAAAAAAAAAAABAAAAQAAA=</HashCode>
       <FileName>Giocatore.cs</FileName>
@@ -17,15 +17,15 @@
   <Class Name="MasterMindLib.Partita">
     <Position X="1.5" Y="1.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAQQACAAAAAAAAAEoAAAACAAgAgAAAAAAAAAQAAAAAA=</HashCode>
+      <HashCode>AAQQACAAAAAAAAAAoAAAACAACAwAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Partita.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Giocatore1" />
+      <Property Name="MasterMindPc" />
     </ShowAsAssociation>
   </Class>
   <Enum Name="Colors">
-    <Position X="13" Y="3.25" Width="1.5" />
+    <Position X="11" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIAAAABAAAgAQIAAAAAAAABAAkAAAAAAEAAAAAAgAAA=</HashCode>
       <FileName>Partita.cs</FileName>
