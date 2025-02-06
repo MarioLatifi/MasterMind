@@ -18,12 +18,13 @@ namespace MasterMindLib
             MasterMindPc masterMindPc = new MasterMindPc();
             SecretCode = masterMindPc.Code;
             NumOfColors = numOfColors;
+            Tentativi = NumOfColors + 1;
         }
+        public int Tentativi { get; private set; }
         public Giocatore Player1{get; set;}
         public Colors[] SecretCode { get; private set; }
         public Vector<Colors[]> Game { get; private set; }
         public int NumOfColors { get; private set; }
-        private Colors[] Temp = new Colors[4];
         public void AddBallToCurrentRound(Colors color, int timesCalled)
         {
             //bisogna controllare che il colore sia tra quelli che ci permette di usare il dato NumOfColors

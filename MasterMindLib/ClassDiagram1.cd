@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="MasterMindLib.MasterMindPc">
     <Position X="9.25" Y="0.5" Width="3.25" />
     <TypeIdentifier>
@@ -8,16 +8,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MasterMindLib.Giocatore">
-    <Position X="6" Y="4" Width="2.5" />
+    <Position X="6.75" Y="3.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAEAAAAAAAEAAQAAAAAAAAAAABAAAAQAAA=</HashCode>
+      <HashCode>AAAAAEAAAAAEAAAAAAAAAAQAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Giocatore.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MasterMindLib.Partita">
-    <Position X="1.5" Y="1.25" Width="3" />
+    <Position X="1.25" Y="0.75" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAQQACAAAAAAAAAAoAAAACAACAwAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQQCCAAABAAAAAgoEAAACAACIwAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Partita.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

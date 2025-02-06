@@ -23,5 +23,9 @@ namespace MasterMind
         {
             InitializeComponent();
         }
+        public void AddBallToCurrentRound(Colors color, int timesCalled)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
