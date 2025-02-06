@@ -25,15 +25,6 @@ namespace MasterMindLib
         public Colors[] SecretCode { get; private set; }
         public Vector<Colors[]> Game { get; private set; }
         public int NumOfColors { get; private set; }
-        public void AddBallToCurrentRound(Colors color, int timesCalled)
-        {
-            //bisogna controllare che il colore sia tra quelli che ci permette di usare il dato NumOfColors
-            //se e' la quarta volta che questo metodo viene chiamato bisogna chiamare DoRound if(timesCalled==4) DoRound();
-            //ma prima a prescindere dall'if bisogna aggiungere il colore ad un array Temporaneo
-
-            //dopo aver chiamato DoRound bisogna svuotare l'array Temporaneo
-            throw new System.NotImplementedException();
-        }
 
         public void AddSlide()//pusha una lista di colori al vettore game
         {
