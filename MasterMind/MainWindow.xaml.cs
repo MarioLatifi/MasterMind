@@ -20,5 +20,10 @@ namespace MasterMind
         {
             InitializeComponent();
         }
+
+        private void myTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

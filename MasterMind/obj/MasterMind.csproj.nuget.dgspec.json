@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {}
+    "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {
+    "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "projectUniqueName": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
         "projectName": "MasterMind",
-        "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
-        "packagesPath": "C:\\Users\\mario.latifi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\obj\\",
+        "projectPath": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "packagesPath": "C:\\Users\\pietro.pighini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mario.latifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pietro.pighini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
