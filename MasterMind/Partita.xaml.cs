@@ -23,8 +23,10 @@ namespace MasterMind
         {
             InitializeComponent();
         }
-        public void AddBallToCurrentRound(Colors color, int timesCalled)
+        private int timescalled = 0;
+        public void AddBallToCurrentRound(Colors color)
         {
+            timescalled++;
             throw new System.NotImplementedException();
         }
     }

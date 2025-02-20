@@ -19,11 +19,27 @@ namespace MasterMindLib
             SecretCode = masterMindPc.Code;
             NumOfColors = numOfColors;
             Tentativi = NumOfColors + 1;
+            Colors[] cols =new Colors[NUM_OF_COLORS_TO_GUESS];
+            Game = new List<Colors[]>();
+
+            for(int i=0;i<Tentativi;i++)
+            {
+                Game.Add(cols);
+            }
         }
+        private int NUM_OF_COLORS_TO_GUESS = 4;Che bello rivederti, confermiamo le tue preferenze
+Per iniziare, accedi e sostituisci le password, la cronologia esplorazioni e altro ancora da Microsoft Cloud.
+
+
+Accedi e sincronizza i dati
+
+Inizia senza i tuoi dati
+Informativa sulla privacy di Microsoft
+
         public int Tentativi { get; private set; }
         public Giocatore Player1{get; set;}
         public Colors[] SecretCode { get; private set; }
-        public Vector<Colors[]> Game { get; private set; }
+        public List<Colors[]> Game { get; private set; }
         public int NumOfColors { get; private set; }
         public void AddBallToCurrentRound(Colors color, int timesCalled)
         {
@@ -37,7 +53,7 @@ namespace MasterMindLib
 
         public void AddSlide()//pusha una lista di colori al vettore game
         {
-            throw new System.NotImplementedException();
+            Game.Add(new Colors[NUM_OF_COLORS_TO_GUESS]);
         }
 
         public void RemoveSlide()//poppa una lista di colori al vettore game

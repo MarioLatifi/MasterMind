@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermind\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partita.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|C:\\Users\\mario.latifi\\Desktop\\MasterMind\\mastermindlib\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\mastermindpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Partita.cs",
               "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\Partita.cs",
               "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeToolTip": "MasterMindLib\\Partita.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T15:50:46.076Z",
               "IsPinned": true,
@@ -49,6 +57,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MasterMind\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MasterMind\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:28:10.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml",
+              "RelativeToolTip": "MasterMind\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-20T09:28:04.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Partita.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\Partita.xaml.cs",
               "RelativeDocumentMoniker": "MasterMind\\Partita.xaml.cs",
@@ -56,24 +93,22 @@
               "RelativeToolTip": "MasterMind\\Partita.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:20:17.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:20:17.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "MasterMindLib\\ClassDiagram1.cd",
               "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\ClassDiagram1.cd",
               "RelativeToolTip": "MasterMindLib\\ClassDiagram1.cd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-02-06T09:05:34.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:05:34.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MasterMindPc.cs",
               "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindPc.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\MasterMindPc.cs",
@@ -81,8 +116,7 @@
               "RelativeToolTip": "MasterMindLib\\MasterMindPc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T11:00:43.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T11:00:43.847Z"
             }
           ]
         }
@@ -107,7 +141,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Giocatore.cs",
               "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Giocatore.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\Giocatore.cs",

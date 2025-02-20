@@ -1,6 +1,6 @@
 ﻿namespace MasterMindLib
 {
-    public class Giocatore
+    internal class Giocatore
     {
         public Giocatore(string name)
         {
@@ -17,7 +17,7 @@
         public int WonCounter
         {
             get => default;
-            private set
+            set
             {
             }
         }
@@ -25,7 +25,7 @@
         public int LostCounter
         {
             get => default;
-            private set
+             set
             {
             }
         }
@@ -33,7 +33,7 @@
         public int PlayedCounter
         {
             get => default;
-            private set
+            set
             {
             }
         }
