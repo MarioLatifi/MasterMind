@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 public enum Colors{
     BLUE,GREEN,RED,LIGHTBLUE,YELLOW,PURPLE,MAGENTA,WHITE,BLACK,BROWN
 }
+public enum StatusOfGame
+{
+    WON,LOST,INPROGRESS
+}
 namespace MasterMindLib
 {
     public class Partita
@@ -27,30 +31,14 @@ namespace MasterMindLib
                 Game.Add(cols);
             }
         }
-        private int NUM_OF_COLORS_TO_GUESS = 4;Che bello rivederti, confermiamo le tue preferenze
-Per iniziare, accedi e sostituisci le password, la cronologia esplorazioni e altro ancora da Microsoft Cloud.
-
-
-Accedi e sincronizza i dati
-
-Inizia senza i tuoi dati
-Informativa sulla privacy di Microsoft
+        private int NUM_OF_COLORS_TO_GUESS = 4;
 
         public int Tentativi { get; private set; }
         public Giocatore Player1{get; set;}
         public Colors[] SecretCode { get; private set; }
         public List<Colors[]> Game { get; private set; }
         public int NumOfColors { get; private set; }
-        public void AddBallToCurrentRound(Colors color, int timesCalled)
-        {
-            //bisogna controllare che il colore sia tra quelli che ci permette di usare il dato NumOfColors
-            //se e' la quarta volta che questo metodo viene chiamato bisogna chiamare DoRound if(timesCalled==4) DoRound();
-            //ma prima a prescindere dall'if bisogna aggiungere il colore ad un array Temporaneo
-
-            //dopo aver chiamato DoRound bisogna svuotare l'array Temporaneo
-            throw new System.NotImplementedException();
-        }
-
+        public StatusOfGame StatusOfThisGame { get; private set; }=StatusOfGame.INPROGRESS;
         public void AddSlide()//pusha una lista di colori al vettore game
         {
             Game.Add(new Colors[NUM_OF_COLORS_TO_GUESS]);
@@ -58,38 +46,77 @@ Informativa sulla privacy di Microsoft
 
         public void RemoveSlide()//poppa una lista di colori al vettore game
         {
-            throw new System.NotImplementedException();
+            Game.RemoveAt(Game.Count() - 1);
         }
-
-        public void DoRound(Colors[] ColoriInOrdineDaSinistraVersoDestra)//il nome è temporaneo
+        public int ColRightPos { get; private set; }
+        public int ColWrongPosButRightCol { get; private set; }
+        public StatusOfGame DoRound(Colors[] ColoriInOrdineDaSinistraVersoDestra)//il nome è temporaneo
         {
             //aggiunge al vettore game la lista di colori
-
+            Game.Add(ColoriInOrdineDaSinistraVersoDestra);
+            StatusOfThisGame= CheckGame(ColoriInOrdineDaSinistraVersoDestra);
+            //incrementa il contatore di partite giocate del giocatore
+            Player1.PlayedCounter++;
             //controlla se la lista di colori è uguale al codice segreto chiamando il checkgame
-
+            
             //se è uguale incrementa il contatore di vittorie del giocatore
             //se non è uguale incrementa il contatore di sconfitte del giocatore
-            //incrementa il contatore di partite giocate del giocatore
 
+            //controlla se lo stato della partita è in progress MA NON QUI, da un altra parte tipo xaml cs
+
+            //controlla se il counter di partite ha superato il massimo
             //calcola quanti colori hai indovinato nella posizione corretta chiamando GetNumOfRightColorsRightPositions
+            GetNumOfRightColorsRightPositions(ColoriInOrdineDaSinistraVersoDestra);
+
             //calcola quanti colori hai indovinato ma non in posizione corretta chiamando GetNumOfRightColorsWrongPositions
+            GetNumOfRightColorsWrongPositions(ColoriInOrdineDaSinistraVersoDestra);
+
+            return StatusOfThisGame;
         }
         public int numberOfRightColorsWithIncorrectPosition { get; private set; }
-        private int GetNumOfRightColorsWrongPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
+        private void GetNumOfRightColorsWrongPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
             //controlla quanti colori hai indovinato ma non in posizione corretta
-            throw new System.NotImplementedException();
+            for(int i=0;i< NUM_OF_COLORS_TO_GUESS; i++)
+            {
+                for(int j=0;j< NUM_OF_COLORS_TO_GUESS; j++)
+                {
+                    if (ColoriInOrdineDaSinistraVersoDestra[i] == SecretCode[j]&&j!=i)
+                    {
+                        ColWrongPosButRightCol++;
+
+                    }
+                }
+            }
+            
         }
         public int numberOfRightColorsWithCorrectPosition { get; private set; }
-        private int GetNumOfRightColorsRightPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
+        private void GetNumOfRightColorsRightPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
             //controlla quanti colori hai indovinato nella posizione corretta
-            throw new System.NotImplementedException();
+            for(int i=0;i<NUM_OF_COLORS_TO_GUESS;i++)
+            {
+                if (ColoriInOrdineDaSinistraVersoDestra[i] == SecretCode[i])
+                {
+                    ColRightPos++;
+                }
+            }
         }
-        public bool CheckGame()
+        private StatusOfGame CheckGame(Colors[] attempt)//setta lo stato del game se sono uguali
         {
-            //controlla se la lista di colori è uguale al codice segreto
-            throw new System.NotImplementedException();
+            GetNumOfRightColorsRightPositions(attempt);
+            if (ColRightPos == SecretCode.Length)
+            {
+                return StatusOfGame.WON;
+            }
+            else if(Player1.PlayedCounter>Tentativi)
+            {
+                return StatusOfGame.LOST;
+            }
+            else
+            {
+                return StatusOfGame.INPROGRESS;
+            }
         }
         public MasterMindPc MasterMindPc{get;}
     }

@@ -1,42 +1,54 @@
 ﻿namespace MasterMindLib
 {
-    internal class Giocatore
+    public class Giocatore
     {
         public Giocatore(string name)
         {
-            Name= name;
+            Name = name;
+            if (string.IsNullOrEmpty(name)) throw new ArgumentNullException("error");
         }
         public string Name
         {
-            get => default;
-            private set
+            get { return Name; }
+            internal set
             {
-                //controlli
+                Name = value;
             }
         }
+        private int _wonCounter;
+
         public int WonCounter
         {
-            get => default;
-            set
+            get { return _wonCounter; }
+            internal set
             {
+                if (value < 0 || value > PlayedCounter) throw new ArgumentOutOfRangeException("won counter mustn't be higher than played's counter or lower than 0");
+                _wonCounter = value;
             }
+
         }
+        private int _lostCounter;
 
         public int LostCounter
         {
-            get => default;
-             set
+            get { return LostCounter; }
+            internal set
             {
+                if (value < 0 || value > PlayedCounter) throw new ArgumentOutOfRangeException("lost counter mustmn't be higher than played's counter or lower than 0 ");
+                _lostCounter = value;
             }
         }
+        private int _playedCounter;
 
         public int PlayedCounter
         {
-            get => default;
-            set
+            get { return PlayedCounter; }
+            internal set
             {
+                if (value < 0) throw new ArgumentOutOfRangeException("played's counter must be higher than 0");
+                PlayedCounter = value;
             }
         }
-        
+
     }
 }

@@ -17,7 +17,7 @@
   <Class Name="MasterMindLib.Partita">
     <Position X="1.25" Y="0.75" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAQQCCAAABAAAAAgoEAAACAACIwAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQQCCAIABAAAAAgoEAAACAACIwAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Partita.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

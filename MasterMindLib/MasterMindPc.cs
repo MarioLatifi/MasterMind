@@ -6,12 +6,21 @@ using System.Threading.Tasks;
 
 namespace MasterMindLib
 {
-    public class MasterMindPc
+    public class MasterMindPc : IGenerator
     {
-        public Colors[] Code { get; }
-        public List<Colors> GenerateCode()
+        public Colors[] Code { get; private set }
+        public MasterMindPc()
         {
-            throw new NotImplementedException();
+            Code = new Colors[4];
+        }
+        public Colors[] GenerateSecretCode()
+        {
+            Random rnd = new Random();
+            for (int i = 0; i < Code.Length; i++)
+            {
+                Code[i] = (Colors)rnd.Next(0, Enum.GetValues(typeof(Colors)).Length);
+            }
+            return Code;
         }
 
     }

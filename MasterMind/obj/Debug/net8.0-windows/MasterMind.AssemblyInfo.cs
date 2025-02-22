@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterMind")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+858b4765691e4a6d0f1bb7125d93c92f755e35ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f16d7760372b1d7b7dd0ab9d9a85736afc9b8427")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterMind")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterMind")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
