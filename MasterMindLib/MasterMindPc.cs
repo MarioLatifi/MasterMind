@@ -8,7 +8,7 @@ namespace MasterMindLib
 {
     public class MasterMindPc : IGenerator
     {
-        public Colors[] Code { get; private set }
+        public Colors[] Code { get; private set; }
         public MasterMindPc()
         {
             Code = new Colors[4];

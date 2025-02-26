@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="DarkSlateBlue">
         <Label Content="BENVENUTI SU MASTERMIND&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Height="65" Width="570" FontSize="37" FontWeight="ExtraBold" BorderBrush="LavenderBlush" BorderThickness="2" />
-        <Button Content="Iniziare la partita" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Height="55" Width="410" FontSize="20" Background="MediumSlateBlue" Click="Button_Click" FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2"/>
-        <Button Content="Selezione difficoltà" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="410" Height="55" FontSize="20" Background="MediumSlateBlue" Click="Button_Click" FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2"/>
-        <Button Content="Regolamento" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Width="410" Height="55" FontSize="20" Background="MediumSlateBlue" Click="Button_Click" FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2"/>
+        <Button Content="Iniziare la partita" x:Name="btn_inizia" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Height="55" Width="410" FontSize="20" Background="MediumSlateBlue"  FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2"/>
+        <Button Content="Selezione difficoltà" x:Name="btn_diff" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="410" Height="55" FontSize="20" Background="MediumSlateBlue"  FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2" Click="btn_diff_Click"/>
+        <Button Content="Regolamento" x:Name="btn_regolamento" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Width="410" Height="55" FontSize="20" Background="MediumSlateBlue" FontWeight="Heavy" BorderBrush="LavenderBlush" BorderThickness="2" Click="Btn_RedirecToRegolamento"/>
     </Grid>
 </Window>

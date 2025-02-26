@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:MasterMind"
         mc:Ignorable="d"
         Title="Regolamento" Height="450" Width="800">
-    <Grid>
+    <Grid Background="DarkSlateBlue">
+        <Label Content="REGOLAMENTO DI MASTERMIND" HorizontalAlignment="Center" VerticalAlignment="Top" Height="69" Width="570" FontSize="33" FontWeight="ExtraBold" BorderBrush="LavenderBlush" BorderThickness="2" RenderTransformOrigin="0.506,0.305" Margin="0,35,0,0" />
         
+
     </Grid>
 </Window>

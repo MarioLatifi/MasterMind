@@ -22,7 +22,9 @@ namespace MasterMind
         public Partita()
         {
             InitializeComponent();
+
         }
+
         private int timescalled = 0;
         public void AddBallToCurrentRound(Colors color)
         {

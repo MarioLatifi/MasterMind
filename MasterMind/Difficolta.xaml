@@ -6,7 +6,42 @@
         xmlns:local="clr-namespace:MasterMind"
         mc:Ignorable="d"
         Title="Difficolta" Height="450" Width="800">
-    <Grid>
-        
+
+    <Window.Resources>
+        <Style x:Key="RoundCheckBox" TargetType="CheckBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CheckBox">
+                        <Grid>
+                            <Ellipse x:Name="ellipse" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White"/>
+                            <Path x:Name="checkMark" Data="M 0 0 L 10 10 M 10 0 L 0 10" Stroke="Black" StrokeThickness="2" Visibility="Collapsed"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="checkMark" Property="Visibility" Value="Visible"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="MediumPurple" RenderTransformOrigin="0.564,0.721">
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX1" Margin="157,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="597,276,153,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="542,276,208,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia1" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="487,276,263,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia2" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="432,276,318,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia3" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="377,276,373,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia4" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="322,276,428,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia5" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="267,276,483,108" Panel.ZIndex="1"/>
+        <Ellipse x:Name="ellipse_Copia6" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="212,276,538,108" Panel.ZIndex="1"/>
+        <Label Content="SELEZIONARE LA DIFFICOLTÁ DELLA PARTITA!" Margin="80,35,80,0" VerticalAlignment="Top" Height="50" FontSize="29" FontWeight="Bold" BorderBrush="White" Background="MediumSlateBlue" BorderThickness="2"/>
+        <Label Content="Selezionare il numero di colori che sarà &#xD;&#xA;proporzionale al numero di cerchi che clicchi" Margin="150,120,150,0" VerticalAlignment="Top" Height="107" FontSize="24" BorderBrush="White" Background="MediumSlateBlue" BorderThickness="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="74" Margin="154,264,0,0" Stroke="Black" Fill="MediumSlateBlue"  VerticalAlignment="Top" Width="496" Panel.ZIndex="0"/>
+        <Button Content="Conferma e torna al menù" FontWeight="Bold" Background="MediumSlateBlue" Margin="280,360,280,0" VerticalAlignment="Top" Height="45"/>
+
     </Grid>
+
 </Window>

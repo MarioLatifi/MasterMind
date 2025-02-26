@@ -19,6 +19,26 @@ namespace MasterMind
         public MainWindow()
         {
             InitializeComponent();
+            //devo inizializzre la classe partita
+        }
+
+        private void Btn_RedirecToRegolamento(object sender, RoutedEventArgs e)
+        {
+            if(sender is Button)
+            {
+                this.Hide();
+                Button btn = new Button();
+                btn = sender as Button;
+                Regolamento regolamento = new Regolamento();
+                regolamento.Show();
+                
+
+            }
+        }
+
+        private void btn_diff_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
