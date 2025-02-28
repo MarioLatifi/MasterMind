@@ -16,7 +16,7 @@ namespace MasterMindLib
 {
     public class Partita
     {
-        public Partita(Giocatore player1,int numOfColors)
+        public Partita(Giocatore player1,int numOfColors=6)
         {
             Player1 = player1;
             MasterMindPc masterMindPc = new MasterMindPc();

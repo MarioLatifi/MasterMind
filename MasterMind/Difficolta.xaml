@@ -19,6 +19,10 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="checkMark" Property="Visibility" Value="Visible"/>
+                                <Setter TargetName="ellipse" Property="Fill" Value="Blue"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter TargetName="ellipse" Property="Fill" Value="White"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -28,20 +32,19 @@
     </Window.Resources>
 
     <Grid Background="MediumPurple" RenderTransformOrigin="0.564,0.721">
-        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX1" Margin="157,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="597,276,153,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="542,276,208,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia1" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="487,276,263,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia2" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="432,276,318,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia3" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="377,276,373,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia4" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="322,276,428,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia5" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="267,276,483,108" Panel.ZIndex="1"/>
-        <Ellipse x:Name="ellipse_Copia6" Width="50" Height="50" Stroke="Black" StrokeThickness="2" Fill="White" Margin="212,276,538,108" Panel.ZIndex="1"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX1" Margin="157,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX2" Margin="212,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX3" Margin="267,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX4" Margin="322,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX5" Margin="377,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX6" Margin="432,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX7" Margin="487,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX8" Margin="542,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <CheckBox Content="" HorizontalAlignment="Left" x:Name="CCX9" Margin="597,276,0,0" VerticalAlignment="Top" Style="{StaticResource RoundCheckBox}" Panel.ZIndex="1" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+
         <Label Content="SELEZIONARE LA DIFFICOLTÁ DELLA PARTITA!" Margin="80,35,80,0" VerticalAlignment="Top" Height="50" FontSize="29" FontWeight="Bold" BorderBrush="White" Background="MediumSlateBlue" BorderThickness="2"/>
         <Label Content="Selezionare il numero di colori che sarà &#xD;&#xA;proporzionale al numero di cerchi che clicchi" Margin="150,120,150,0" VerticalAlignment="Top" Height="107" FontSize="24" BorderBrush="White" Background="MediumSlateBlue" BorderThickness="2"/>
         <Rectangle HorizontalAlignment="Left" Height="74" Margin="154,264,0,0" Stroke="Black" Fill="MediumSlateBlue"  VerticalAlignment="Top" Width="496" Panel.ZIndex="0"/>
-        <Button Content="Conferma e torna al menù" FontWeight="Bold" Background="MediumSlateBlue" Margin="280,360,280,0" VerticalAlignment="Top" Height="45"/>
-
+        <Button Content="Conferma e torna al menù" x:Name="btn_backMain" FontWeight="Bold" Background="MediumSlateBlue" Margin="280,360,280,0" VerticalAlignment="Top" Height="45" Click="btn_backMain_Click"/>
     </Grid>
-
 </Window>

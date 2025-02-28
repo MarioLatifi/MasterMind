@@ -21,7 +21,7 @@ namespace MasterMind
             InitializeComponent();
             //devo inizializzre la classe partita
         }
-
+        
         private void Btn_RedirecToRegolamento(object sender, RoutedEventArgs e)
         {
             if(sender is Button)
@@ -35,9 +35,22 @@ namespace MasterMind
 
             }
         }
-
+        private Difficolta difficolta;
+        private PartitaWpf partita;
         private void btn_diff_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide();
+            difficolta= new Difficolta();
+            difficolta.Show();
+        }
+
+        private void btn_inizia_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            //devo settare una variabile globale di tipo Difficoltá che mi permette di creare la partita
+            //se la vartiabile vale -1 (non cambiata) uso il costruttore di default
+            partita = new PartitaWpf();
+            partita.Show();
 
         }
     }

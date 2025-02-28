@@ -17,9 +17,9 @@ namespace MasterMind
     /// <summary>
     /// Logica di interazione per Partita.xaml
     /// </summary>
-    public partial class Partita : Window
+    public partial class PartitaWpf : Window
     {
-        public Partita()
+        public PartitaWpf()
         {
             InitializeComponent();
 
