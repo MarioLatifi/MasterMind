@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using MasterMindLib;
 namespace MasterMind
 {
     /// <summary>
@@ -16,6 +16,9 @@ namespace MasterMind
     /// </summary>
     public partial class MainWindow : Window
     {
+        //va fatto nel costruttore
+        Giocatore giocatore = new Giocatore();
+        Partita Partita= new Partita(giocatore, [classe che genera colori]);
         public MainWindow()
         {
             InitializeComponent();
@@ -40,7 +43,7 @@ namespace MasterMind
         private void btn_diff_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            difficolta= new Difficolta();
+            difficolta= new Difficolta(this);
             difficolta.Show();
         }
 
@@ -48,10 +51,9 @@ namespace MasterMind
         {
             this.Hide();
             //devo settare una variabile globale di tipo Difficoltá che mi permette di creare la partita
-            //se la vartiabile vale -1 (non cambiata) uso il costruttore di default
+            //se la variabile vale -1 (non cambiata) uso il costruttore di default
             partita = new PartitaWpf();
             partita.Show();
-
         }
     }
 }

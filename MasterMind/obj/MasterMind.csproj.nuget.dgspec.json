@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\latif\\Desktop\\masterMindPersonale\\MasterMind\\MasterMind\\MasterMind.csproj": {}
+    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\latif\\Desktop\\masterMindPersonale\\MasterMind\\MasterMind\\MasterMind.csproj": {
+    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\latif\\Desktop\\masterMindPersonale\\MasterMind\\MasterMind\\MasterMind.csproj",
-        "projectName": "MasterMind",
-        "projectPath": "C:\\Users\\latif\\Desktop\\masterMindPersonale\\MasterMind\\MasterMind\\MasterMind.csproj",
-        "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\latif\\Desktop\\masterMindPersonale\\MasterMind\\MasterMind\\obj\\",
+        "projectUniqueName": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "projectName": "MasterMindLib",
+        "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "packagesPath": "C:\\Users\\mario.latifi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mario.latifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -43,8 +44,76 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "projectName": "MasterMind",
+        "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "packagesPath": "C:\\Users\\mario.latifi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mario.latifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+                "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

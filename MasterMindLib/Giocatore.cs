@@ -2,18 +2,8 @@
 {
     public class Giocatore
     {
-        public Giocatore(string name)
+        public Giocatore()//tecnicamente avrei dovuto chiedergli un  nome ma nelal wpf mi sono scordato
         {
-            Name = name;
-            if (string.IsNullOrEmpty(name)) throw new ArgumentNullException("error");
-        }
-        public string Name
-        {
-            get { return Name; }
-            internal set
-            {
-                Name = value;
-            }
         }
         private int _wonCounter;
 

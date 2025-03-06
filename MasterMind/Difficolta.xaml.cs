@@ -6,10 +6,11 @@ namespace MasterMind
     public partial class Difficolta : Window
     {
         public int CheckBoxCounter { get; private set; } = 0;
-
-        public Difficolta()
+        public MainWindow PrincipalMain { get; private set; }
+        public Difficolta(MainWindow main)
         {
             InitializeComponent();
+            PrincipalMain = main;
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -20,6 +21,12 @@ namespace MasterMind
         private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
             CheckBoxCounter--;
+        }
+
+        private void btn_backMain_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            PrincipalMain.Show();
         }
     }
 }
