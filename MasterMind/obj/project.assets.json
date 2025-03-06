@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mario.latifi\\.nuget\\packages\\": {},
+    "C:\\Users\\Utente\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\MasterMind.csproj",
       "projectName": "MasterMind",
-      "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
-      "packagesPath": "C:\\Users\\mario.latifi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\obj\\",
+      "projectPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\MasterMind.csproj",
+      "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mario.latifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
-              "projectPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
+            "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+              "projectPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
             }
           }
         }
@@ -98,7 +98,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
