@@ -3,11 +3,11 @@ using System.Windows.Controls;
 
 namespace MasterMind
 {
-    public partial class Difficolta : Window
+    public partial class DifficoltaWpf : Window
     {
         public int CheckBoxCounter { get; private set; } = 0;
         public MainWindow PrincipalMain { get; private set; }
-        public Difficolta(MainWindow main)
+        public DifficoltaWpf(MainWindow main)
         {
             InitializeComponent();
             PrincipalMain = main;

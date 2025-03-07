@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MasterMindLib
+﻿namespace MasterMindLib
 {
     public class MasterMindPc : IGenerator
     {
         public Colors[] Code { get; private set; }
-        public MasterMindPc()
+        public MasterMindPc()                           
         {
             Code = new Colors[4];
         }
@@ -22,6 +16,5 @@ namespace MasterMindLib
             }
             return Code;
         }
-
     }
 }

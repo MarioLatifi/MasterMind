@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\",
+  "WorkspaceRootPath": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastemind\\mastermind\\mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\giocatore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\latif\\desktop\\mastemind\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\mario.latifi\\desktop\\mastermind\\mastermind\\difficolta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\difficolta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Giocatore.cs",
-              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Giocatore.cs",
-              "RelativeDocumentMoniker": "MasterMindLib\\Giocatore.cs",
-              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Giocatore.cs",
-              "RelativeToolTip": "MasterMindLib\\Giocatore.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wAYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:51:10.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Partita.cs",
-              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\Partita.cs",
-              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeToolTip": "MasterMindLib\\Partita.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:45:29.511Z",
+              "WhenOpened": "2025-03-07T19:12:18.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MasterMind\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MasterMind\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:39:27.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Difficolta.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\Difficolta.xaml.cs",
-              "RelativeDocumentMoniker": "MasterMind\\Difficolta.xaml.cs",
-              "ToolTip": "C:\\Users\\mario.latifi\\Desktop\\MasterMind\\MasterMind\\Difficolta.xaml.cs",
-              "RelativeToolTip": "MasterMind\\Difficolta.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:39:16.622Z",
+              "Title": "PartitaWpf.xaml",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMind\\PartitaWpf.xaml",
+              "RelativeDocumentMoniker": "MasterMind\\PartitaWpf.xaml",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMind\\PartitaWpf.xaml",
+              "RelativeToolTip": "MasterMind\\PartitaWpf.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T16:27:13.662Z",
               "EditorCaption": ""
             }
           ]

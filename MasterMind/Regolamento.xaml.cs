@@ -19,9 +19,17 @@ namespace MasterMind
     /// </summary>
     public partial class Regolamento : Window
     {
-        public Regolamento()
+        private MainWindow MainWindow;
+        public Regolamento(MainWindow main)
         {
             InitializeComponent();
+            MainWindow = main;
+        }
+
+        private void back2Main(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            MainWindow.Show();
         }
     }
 }

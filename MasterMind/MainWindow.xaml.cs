@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Drawing;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -17,12 +18,14 @@ namespace MasterMind
     public partial class MainWindow : Window
     {
         //va fatto nel costruttore
-        Giocatore giocatore = new Giocatore();
-        Partita Partita= new Partita(giocatore, [classe che genera colori]);
+        Giocatore giocatore;
+        //Partita Partita = new Partita(giocatore, [classe che genera colori]);
+
         public MainWindow()
         {
             InitializeComponent();
-            //devo inizializzre la classe partita
+            giocatore = new Giocatore();
+            Difficolta = new DifficoltaWpf(this); // inizializzazione nel costruttore
         }
         
         private void Btn_RedirecToRegolamento(object sender, RoutedEventArgs e)
@@ -32,28 +35,40 @@ namespace MasterMind
                 this.Hide();
                 Button btn = new Button();
                 btn = sender as Button;
-                Regolamento regolamento = new Regolamento();
+                Regolamento regolamento = new Regolamento(this);
                 regolamento.Show();
                 
 
             }
         }
-        private Difficolta difficolta;
-        private PartitaWpf partita;
+        private DifficoltaWpf Difficolta; // dichiarazione senza inizializzazione
+        private PartitaWpf partitaWpf;
         private void btn_diff_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            difficolta= new Difficolta(this);
-            difficolta.Show();
+            Difficolta= new DifficoltaWpf(this);
+            Difficolta.Show();
         }
 
         private void btn_inizia_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             //devo settare una variabile globale di tipo Difficoltá che mi permette di creare la partita
-            //se la variabile vale -1 (non cambiata) uso il costruttore di default
-            partita = new PartitaWpf();
-            partita.Show();
+            //se la variabile vale 0 o ad 1 (non cambiata) uso il costruttore di default
+
+            Partita partita; // dichiarazione della variabile partita
+
+            //Partita Partita = new Partita(giocatore, [classe che genera colori]); creo qui la partita
+            if (Difficolta.CheckBoxCounter == 0 || Difficolta.CheckBoxCounter == 1)
+            {
+                partita = new Partita(giocatore);
+            }
+            else
+            {
+                partita = new Partita(giocatore, Difficolta.CheckBoxCounter);
+            }
+            partitaWpf = new PartitaWpf(this, partita);
+            partitaWpf.Show();
         }
     }
 }
