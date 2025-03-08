@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\",
+  "WorkspaceRootPath": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastemind\\mastermind\\mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\pietro.pighini\\desktop\\mastermind\\mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\latif\\desktop\\mastemind\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\pietro.pighini\\desktop\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,22 +24,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Partita.cs",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMindLib\\Partita.cs",
+              "DocumentMoniker": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\Partita.cs",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMindLib\\Partita.cs",
+              "ToolTip": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeToolTip": "MasterMindLib\\Partita.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAlwAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:12:18.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T19:12:18.866Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PartitaWpf.xaml",
-              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMind\\PartitaWpf.xaml",
+              "DocumentMoniker": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\PartitaWpf.xaml",
               "RelativeDocumentMoniker": "MasterMind\\PartitaWpf.xaml",
-              "ToolTip": "C:\\Users\\latif\\Desktop\\mastemind\\MasterMind\\MasterMind\\PartitaWpf.xaml",
+              "ToolTip": "C:\\Users\\pietro.pighini\\Desktop\\MasterMind\\MasterMind\\PartitaWpf.xaml",
               "RelativeToolTip": "MasterMind\\PartitaWpf.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-07T16:27:13.662Z",

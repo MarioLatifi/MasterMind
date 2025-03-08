@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MasterMind"
         mc:Ignorable="d"
-        Title="Partita" Height="600
-        " Width="800">
-    <Grid Background="DarkSlateBlue">
+        Title="Partita" Height="600" Width="900"
+        Background="DarkSlateBlue">
+    <Grid Background="DarkSlateBlue" HorizontalAlignment="Center" Width="800" Height="584" VerticalAlignment="Top">
         <Label Content="SELEZIONARE IL COLORE E LA CASELLA!" Margin="150,10,150,0" VerticalAlignment="Top" Height="44" FontWeight="UltraBold" FontSize="25" BorderBrush="LavenderBlush" BorderThickness="2"/>
         <Rectangle HorizontalAlignment="Left" Height="43" Margin="192,482,0,0" Stroke="Black" VerticalAlignment="Top" Width="260" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
@@ -405,7 +405,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="231,415,525,126" Click="Button_Click" x:Name="btn_1">
+        <Button Margin="0,415,525,126" Click="Button_Click" x:Name="btn_1" HorizontalAlignment="Right" Width="44">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1088,9 +1088,7 @@
         <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,313,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_13"
-            HorizontalAlignment="Left"
             VerticalAlignment="Center"
-            Width="20"
             Height="20"
             Background="White"
             Foreground="White"
@@ -1098,7 +1096,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,0,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="152,0,628,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
