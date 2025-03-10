@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterMindLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84e48df528cd5771b83acf66948b61d2e0fb23b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d50680cf08de6bcd90b8325185e12d5244075b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterMindLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterMindLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

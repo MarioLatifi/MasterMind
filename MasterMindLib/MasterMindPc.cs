@@ -3,16 +3,24 @@
     public class MasterMindPc : IGenerator
     {
         public Colors[] Code { get; private set; }
-        public MasterMindPc()                           
+        public MasterMindPc(int difficulty)                           
         {
             Code = new Colors[4];
+            Difficulty = difficulty;
         }
+        private int Difficulty { get; set; }
         public Colors[] GenerateSecretCode()
         {
             Random rnd = new Random();
+            List<Colors> availableColors = Enum.GetValues(typeof(Colors))//ho chiesto a stackoverflow come fare a prendere tutti i valori di un enum
+                .Cast<Colors>()
+                .Where(color => (int)color <= Difficulty && color != Colors.WHITE)
+                .ToList();
             for (int i = 0; i < Code.Length; i++)
             {
-                Code[i] = (Colors)rnd.Next(0, Enum.GetValues(typeof(Colors)).Length);
+                int index = rnd.Next(availableColors.Count);
+                Code[i] = availableColors[index];
+                availableColors.RemoveAt(index);
             }
             return Code;
         }

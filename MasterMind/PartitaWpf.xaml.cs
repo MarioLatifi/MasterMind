@@ -13,7 +13,7 @@ namespace MasterMind
     {
         private MainWindow Main;
         private Partita Partita;
-        private Colors LastColorToBeClicked = Colors.BLACK;
+        public Colors LastColorToBeClicked= Colors.BLACK;
 
         public PartitaWpf(MainWindow main, Partita partita)
         {
@@ -72,7 +72,7 @@ namespace MasterMind
                     return System.Windows.Media.Colors.White;
             }
         }
-        Colors[] ColoriInOrdineDaSinistraVersoDestra = new Colors[4];
+        public Colors[] ColoriInOrdineDaSinistraVersoDestra { get; private set; } = new Colors[4];
 
         // ...
 
@@ -113,5 +113,49 @@ namespace MasterMind
             }
         }
 
+        private void Button_Confirm(object sender, RoutedEventArgs e)
+        {
+            //devo controllare se la sequenza corrisponde a quella di MasterMindPc
+            if (Partita.DoRound(ColoriInOrdineDaSinistraVersoDestra) == StatusOfGame.WON)
+            {
+                MessageBox.Show("Hai vinto");
+                this.Close();
+                Main.Show();
+            }
+            else
+            {
+                MessageBox.Show("Hai perso");
+                Button btn = sender as Button;
+                int roundNumber = int.Parse(btn.Name.Split('_')[2]);
+                int startLabelIndex = (roundNumber - 1) * 4 + 1;
+
+                for (int i = 0; i < Partita.ColRightPos; i++)
+                {
+                    Label label = (Label)FindName($"lbl_{startLabelIndex + i}");
+                    ChangeCololorToLabel(label, System.Windows.Media.Colors.Black);
+                }
+
+                for (int i = 0; i < Partita.ColWrongPosButRightCol; i++)
+                {
+                    Label label = (Label)FindName($"lbl_{startLabelIndex + Partita.ColRightPos + i}");//brow sono quelli pos sbagliata ma colore giusto
+                    ChangeCololorToLabel(label, System.Windows.Media.Colors.Brown);
+                }
+                btn.Visibility = Visibility.Hidden;
+            }
+            
+        }
+        private void ChangeCololorToLabel(Label label, System.Windows.Media.Color color)
+        {
+            if (label != null)
+            {
+                label.Background = new SolidColorBrush(color);
+            }
+        }
+
+        private void btn_Replay(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            Main.Show();
+        }
     }
 }

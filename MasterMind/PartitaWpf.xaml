@@ -139,7 +139,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Replay" FontSize="15" Margin="525,476,150,65" >
+        <Button Content="Replay" FontSize="15" Margin="525,476,150,65" Click="btn_Replay" >
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -175,7 +175,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,415,150,126" >
+        <Button Content="Conferma" FontSize="15" Margin="525,415,150,126" Click="Button_Confirm" x:Name="btn_round_1">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -197,7 +197,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,315,149,226" >
+        <Button Content="Conferma" FontSize="15" Margin="525,315,149,226" Click="Button_Confirm" x:Name="btn_round_3">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -219,7 +219,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="526,208,148,333" >
+        <Button Content="Conferma" FontSize="15" Margin="526,208,148,333" Click="Button_Confirm" x:Name="btn_round_5">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -241,7 +241,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,364,150,177">
+        <Button Content="Conferma" FontSize="15" Margin="525,364,150,177" Click="Button_Confirm" x:Name="btn_round_2">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -645,7 +645,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="527,259,148,282" >
+        <Button Content="Conferma" FontSize="15" Margin="527,259,148,282" Click="Button_Confirm" x:Name="btn_round_4">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -667,7 +667,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,103,150,438" >
+        <Button Content="Conferma" FontSize="15" Margin="525,103,150,438" Click="Button_Confirm" x:Name="btn_round_7">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -689,7 +689,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="526,154,149,387" >
+        <Button Content="Conferma" FontSize="15" Margin="526,154,149,387" Click="Button_Confirm" x:Name="btn_round_6">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>

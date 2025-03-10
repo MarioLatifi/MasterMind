@@ -1,12 +1,13 @@
 ﻿using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 public enum Colors{
-    WHITE,BLUE,GREEN,RED,LIGHTBLUE,YELLOW,PURPLE,MAGENTA,BLACK,BROWN,PINK
+    WHITE,BLUE,GREEN,RED,LIGHTBLUE,YELLOW,PINK,PURPLE,MAGENTA,BLACK,BROWN
 }
 public enum StatusOfGame
 {
@@ -19,8 +20,8 @@ namespace MasterMindLib
         public Partita(Giocatore player1, int numOfColors=6 )
         {
             Player1 = player1;
-            MasterMindPc = new MasterMindPc(); // Initialize MasterMindPc here
-            SecretCode = MasterMindPc.Code;
+            MasterMindPc = new MasterMindPc(numOfColors); // Initialize MasterMindPc here
+            SecretCode=MasterMindPc.GenerateSecretCode();
             NumOfColors = numOfColors;
             Tentativi = NumOfColors + 1;
             Colors[] cols = new Colors[NUM_OF_COLORS_TO_GUESS];
@@ -55,6 +56,8 @@ namespace MasterMindLib
         {
             // aggiunge al vettore game la lista di colori
             Game.Add(ColoriInOrdineDaSinistraVersoDestra);
+
+
             StatusOfThisGame = CheckGame(ColoriInOrdineDaSinistraVersoDestra);
             // incrementa il contatore di partite giocate del giocatore
             Player1.PlayedCounter++;
@@ -65,24 +68,24 @@ namespace MasterMindLib
 
             // controlla se lo stato della partita è in progress MA NON QUI, da un altra parte tipo xaml cs
 
-            // controlla se il counter di partite ha superato il massimo
-            // calcola quanti colori hai indovinato nella posizione corretta chiamando GetNumOfRightColorsRightPositions
-            GetNumOfRightColorsRightPositions(ColoriInOrdineDaSinistraVersoDestra);
+            // calcola quanti colori hai indovinato nella posizione corretta chiamando GetNumOfRightColorsRightPositions <-- giá fatto nel checkgame xché serviva li, non lo sto a riazzerare inutilmente.
 
             // calcola quanti colori hai indovinato ma non in posizione corretta chiamando GetNumOfRightColorsWrongPositions
             GetNumOfRightColorsWrongPositions(ColoriInOrdineDaSinistraVersoDestra);
+            // controlla se il counter di partite ha superato il massimo
+
 
             return StatusOfThisGame;
         }
-        public int numberOfRightColorsWithIncorrectPosition { get; private set; }
         private void GetNumOfRightColorsWrongPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
+            ColWrongPosButRightCol = 0;
             // controlla quanti colori hai indovinato ma non in posizione corretta
             for (int i = 0; i < NUM_OF_COLORS_TO_GUESS; i++)
             {
                 for (int j = 0; j < NUM_OF_COLORS_TO_GUESS; j++)
                 {
-                    if (ColoriInOrdineDaSinistraVersoDestra[i] == SecretCode[j] && j != i)
+                    if (ColoriInOrdineDaSinistraVersoDestra[j] == SecretCode[i] && j != i)
                     {
                         ColWrongPosButRightCol++;
 
@@ -91,9 +94,9 @@ namespace MasterMindLib
             }
 
         }
-        public int numberOfRightColorsWithCorrectPosition { get; private set; }
         private void GetNumOfRightColorsRightPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
+            ColRightPos = 0;
             // controlla quanti colori hai indovinato nella posizione corretta
             for (int i = 0; i < NUM_OF_COLORS_TO_GUESS; i++)
             {
@@ -105,6 +108,7 @@ namespace MasterMindLib
         }
         private StatusOfGame CheckGame(Colors[] attempt) // setta lo stato del game se sono uguali
         {
+            ColRightPos = 0;
             GetNumOfRightColorsRightPositions(attempt);
             if (ColRightPos == SecretCode.Length)
             {
