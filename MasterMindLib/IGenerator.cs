@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MasterMindLib
 {
-    internal interface IGenerator
+    public interface IGenerator
     {
         public Colors[] GenerateSecretCode();
     }

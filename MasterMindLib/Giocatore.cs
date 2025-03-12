@@ -28,15 +28,15 @@
                 _lostCounter = value;
             }
         }
-        private int _playedCounter;
+        private int _playedCounter=0;
 
         public int PlayedCounter
         {
-            get { return PlayedCounter; }
+            get { return _playedCounter; }
             internal set
             {
                 if (value < 0) throw new ArgumentOutOfRangeException("played's counter must be higher than 0");
-                PlayedCounter = value;
+                _playedCounter = value;
             }
         }
 

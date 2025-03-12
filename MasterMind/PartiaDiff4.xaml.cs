@@ -15,21 +15,13 @@ using System.Windows.Shapes;
 namespace MasterMind
 {
     /// <summary>
-    /// Logica di interazione per Regolamento.xaml
+    /// Logica di interazione per PartiaDiff4.xaml
     /// </summary>
-    public partial class Regolamento : Window
+    public partial class PartiaDiff4 : Window
     {
-        private MainWindow MainWindow;
-        public Regolamento(MainWindow main)
+        public PartiaDiff4()
         {
             InitializeComponent();
-            MainWindow = main;
-        }
-
-        private void back2Main(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-            MainWindow.Show();
         }
     }
 }

@@ -15,21 +15,13 @@ using System.Windows.Shapes;
 namespace MasterMind
 {
     /// <summary>
-    /// Logica di interazione per Partita.xaml
+    /// Logica di interazione per PartiaDiff3.xaml
     /// </summary>
-    public partial class PartitaWpf : Window
+    public partial class PartiaDiff3 : Window
     {
-        public PartitaWpf()
+        public PartiaDiff3()
         {
             InitializeComponent();
-
-        }
-
-        private int timescalled = 0;
-        public void AddBallToCurrentRound(Colors color)
-        {
-            timescalled++;
-            throw new System.NotImplementedException();
         }
     }
 }
