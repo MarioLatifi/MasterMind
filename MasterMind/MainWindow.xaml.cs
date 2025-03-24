@@ -37,12 +37,17 @@ namespace MasterMind
                 btn = sender as Button;
                 Regolamento regolamento = new Regolamento(this);
                 regolamento.Show();
-                
-
             }
         }
         private DifficoltaWpf Difficolta; // dichiarazione senza inizializzazione
         private PartitaWpf partitaWpf;
+        private PartitaDiff1 partitaDiff1;
+        private PartitaDiff2 partitaDiff2;
+        private PartitaDiff3 partitaDiff3;
+        private PartitaDiff4 partitaDiff4;
+        private PartitaDiff6 partitaDiff6;
+
+
         private void btn_diff_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
@@ -62,13 +67,43 @@ namespace MasterMind
             if (Difficolta.CheckBoxCounter == 0 || Difficolta.CheckBoxCounter == 1)
             {
                 partita = new Partita(giocatore);
+                partitaWpf = new PartitaWpf(this, partita);
+                partitaWpf.Show();//la partita di default
             }
             else
-            {
+            {                                 
                 partita = new Partita(giocatore, Difficolta.CheckBoxCounter);
             }
-            partitaWpf = new PartitaWpf(this, partita);
-            partitaWpf.Show();
+            if(Difficolta.CheckBoxCounter == 2)
+            {
+                partitaDiff1 = new PartitaDiff1(this, partita);
+                partitaDiff1.Show();
+            }
+            if(Difficolta.CheckBoxCounter == 3)
+            {
+                partitaDiff2 = new PartitaDiff2(this, partita);
+                partitaDiff2.Show();
+            }
+            if (Difficolta.CheckBoxCounter == 4)
+            {
+                partitaDiff3 = new PartitaDiff3(this, partita);
+                partitaDiff3.Show();
+            }
+            if (Difficolta.CheckBoxCounter == 5)
+            {
+                partitaDiff4 = new PartitaDiff4(this, partita);
+                partitaDiff4.Show();
+            }
+            if(Difficolta.CheckBoxCounter == 6)
+            {
+                partitaWpf  = new PartitaWpf(this, partita);
+                partitaWpf.Show();
+            }
+            if(Difficolta.CheckBoxCounter == 7)
+            {
+                partitaDiff6 = new PartitaDiff6(this, partita);
+                partitaDiff6.Show();
+            }
         }
     }
 }

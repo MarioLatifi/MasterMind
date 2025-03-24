@@ -137,7 +137,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,415,476,126" Click="Button_Click" x:Name="btn_2">
+        <Button Margin="280,415,476,126" Click="click_AddColorToSequence" x:Name="btn_2">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -235,7 +235,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Margin="329,415,427,125" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_3">
+        <Button Margin="329,415,427,125" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_3">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -245,7 +245,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,415,378,125" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_4">
+        <Button Margin="378,415,378,125" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_4">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -259,7 +259,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,363,476,178" Click="Button_Click" x:Name="btn_6">
+        <Button Margin="280,363,476,178" Click="click_AddColorToSequence" x:Name="btn_6">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -269,7 +269,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,363,427,177" RenderTransformOrigin="0.5,0.5" Click="Button_Click" x:Name="btn_7">
+        <Button Margin="329,363,427,177" RenderTransformOrigin="0.5,0.5" Click="click_AddColorToSequence" x:Name="btn_7">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -279,7 +279,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,363,378,177" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_8">
+        <Button Margin="378,363,378,177" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_8">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -293,7 +293,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,311,476,230" Click="Button_Click" x:Name="btn_10">
+        <Button Margin="280,311,476,230" Click="click_AddColorToSequence" x:Name="btn_10">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -303,7 +303,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,311,526,229" Click="Button_Click" x:Name="btn_9">
+        <Button Margin="230,311,526,229" Click="click_AddColorToSequence" x:Name="btn_9">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -313,7 +313,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,311,427,229" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_11">
+        <Button Margin="329,311,427,229" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_11">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -323,71 +323,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,311,378,229" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_12">
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid x:Name="buttonGrid">
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,204,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
-            <Rectangle.RadiusX>10</Rectangle.RadiusX>
-            <Rectangle.RadiusY>10</Rectangle.RadiusY>
-        </Rectangle>
-        <Button Margin="280,207,476,334" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="230,207,526,333" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="330,207,426,333" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="378,207,378,333" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="0,415,525,126" Click="Button_Click" x:Name="btn_1" HorizontalAlignment="Right" Width="44">
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid x:Name="buttonGrid">
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="230,363,526,178" Click="Button_Click" x:Name="btn_5">
+        <Button Margin="378,311,378,229" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_12">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -441,11 +377,75 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <Button Margin="0,415,525,126" Click="click_AddColorToSequence" x:Name="btn_1" HorizontalAlignment="Right" Width="44">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="230,363,526,178" Click="click_AddColorToSequence" x:Name="btn_5">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
         <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,204,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,207,476,334" Click="Button_Click" x:Name="btn_18">
+        <Button Margin="280,207,476,334" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="230,207,526,333" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="330,207,426,333" RenderTransformOrigin="0.5,0.478" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="378,207,378,333" RenderTransformOrigin="0.5,0.478" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,204,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+            <Rectangle.RadiusX>10</Rectangle.RadiusX>
+            <Rectangle.RadiusY>10</Rectangle.RadiusY>
+        </Rectangle>
+        <Button Margin="280,207,476,334" Click="click_AddColorToSequence" x:Name="btn_18">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -455,7 +455,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,207,526,333" Click="Button_Click" x:Name="btn_17">
+        <Button Margin="230,207,526,333" Click="click_AddColorToSequence" x:Name="btn_17">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -465,7 +465,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,207,426,333" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_19">
+        <Button Margin="330,207,426,333" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_19">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -475,7 +475,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,207,378,333" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_20">
+        <Button Margin="378,207,378,333" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_20">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -489,7 +489,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,259,476,282" Click="Button_Click" x:Name="btn_14">
+        <Button Margin="280,259,476,282" Click="click_AddColorToSequence" x:Name="btn_14">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -499,7 +499,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,259,526,281" Click="Button_Click" x:Name="btn_13">
+        <Button Margin="230,259,526,281" Click="click_AddColorToSequence" x:Name="btn_13">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -509,7 +509,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,259,426,281" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_15">
+        <Button Margin="330,259,426,281" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_15">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -519,7 +519,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,259,378,281" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_16">
+        <Button Margin="378,259,378,281" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_16">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -533,7 +533,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,154,476,387"  Click="Button_Click" x:Name="btn_22">
+        <Button Margin="280,154,476,387"  Click="click_AddColorToSequence" x:Name="btn_22">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -543,7 +543,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,154,526,387" Click="Button_Click" x:Name="btn_21">
+        <Button Margin="230,154,526,387" Click="click_AddColorToSequence" x:Name="btn_21">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -553,7 +553,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,154,426,387" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_23">
+        <Button Margin="330,154,426,387" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_23">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -563,7 +563,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,154,378,387" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_24">
+        <Button Margin="378,154,378,387" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_24">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -577,7 +577,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,103,476,438" Click="Button_Click" x:Name="btn_26">
+        <Button Margin="280,103,476,438" Click="click_AddColorToSequence" x:Name="btn_26">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -587,7 +587,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,103,526,438" Click="Button_Click" x:Name="btn_25">
+        <Button Margin="230,103,526,438" Click="click_AddColorToSequence" x:Name="btn_25">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -597,7 +597,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,103,426,438" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_27">
+        <Button Margin="329,103,426,438" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -607,7 +607,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,103,378,437" RenderTransformOrigin="0.5,0.478" Click="Button_Click" x:Name="btn_28">
+        <Button Margin="378,103,378,437" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">

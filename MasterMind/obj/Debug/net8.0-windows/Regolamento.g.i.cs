@@ -69,7 +69,7 @@ namespace MasterMind {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MasterMind;V1.0.0.0;component/regolamento.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MasterMind;component/regolamento.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Regolamento.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

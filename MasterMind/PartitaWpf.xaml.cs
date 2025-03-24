@@ -76,7 +76,7 @@ namespace MasterMind
 
         // ...
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void click_AddColorToSequence(object sender, RoutedEventArgs e)
         {
             Button btn = sender as Button;
             if (btn != null)

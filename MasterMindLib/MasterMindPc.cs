@@ -9,10 +9,11 @@
             Difficulty = difficulty;
         }
         private int Difficulty { get; set; }
+        
         public Colors[] GenerateSecretCode()
         {
             Random rnd = new Random();
-            List<Colors> availableColors = Enum.GetValues(typeof(Colors))//ho chiesto a stackoverflow come fare a prendere tutti i valori di un enum
+            List<Colors> availableColors = Enum.GetValues(typeof(Colors))
                 .Cast<Colors>()
                 .Where(color => (int)color <= Difficulty && color != Colors.WHITE)
                 .ToList();
@@ -20,7 +21,10 @@
             {
                 int index = rnd.Next(availableColors.Count);
                 Code[i] = availableColors[index];
-                availableColors.RemoveAt(index);
+                if (Difficulty>6||Difficulty==1||Difficulty==0)
+                {
+                    availableColors.RemoveAt(index);
+                }
             }
             return Code;
         }
