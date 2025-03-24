@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZToIQmtS/QU=",
+  "dgSpecHash": "PO8982EZfZo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\MasterMind.csproj",
+  "projectFilePath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

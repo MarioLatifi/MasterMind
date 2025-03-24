@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utente\\.nuget\\packages\\": {},
+    "C:\\Users\\latif\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\MasterMind.csproj",
+      "projectUniqueName": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
       "projectName": "MasterMind",
-      "projectPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\MasterMind.csproj",
-      "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\obj\\",
+      "projectPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+      "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,15 +52,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
-              "projectPath": "C:\\Users\\Utente\\Documents\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
+            "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+              "projectPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
             }
           }
         }
@@ -74,7 +73,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -98,16 +98,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Utente\\Documents\\MasterMind\\MasterMind\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
