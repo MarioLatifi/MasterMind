@@ -25,6 +25,15 @@
     <Compile Update="PartitaDiff6.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PartitaDiff7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PartitaDiff8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PartitaDiff9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PartitaWpf.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +61,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PartitaDiff6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PartitaDiff7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PartitaDiff8.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PartitaDiff9.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PartitaWpf.xaml">

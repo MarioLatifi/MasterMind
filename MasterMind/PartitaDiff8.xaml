@@ -1,56 +1,19 @@
-﻿<Window x:Class="MasterMind.PartitaDiff6"
+﻿<Window x:Class="MasterMind.PartitaWpf"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MasterMind"
         mc:Ignorable="d"
-        Title="Partita" Height="600" Width="900"
+        Title="Partita" Height="750" Width="900"
         Background="DarkSlateBlue">
-    <Grid Background="DarkSlateBlue" HorizontalAlignment="Center" Width="800" Height="584" VerticalAlignment="Bottom">
-        <Label Content="SELEZIONARE IL COLORE E LA CASELLA!" Margin="150,10,150,0" VerticalAlignment="Top" Height="44" FontWeight="UltraBold" FontSize="25" BorderBrush="LavenderBlush" BorderThickness="2"/>
-        <Button Margin="192,527,565,14">
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-
-        </Button>
-        <Button Margin="235,527,522,14" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="278,527,479,14" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="323,527,434,14" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="366,527,391,14" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="409,527,348,14" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Rectangle HorizontalAlignment="Left" Height="43" Margin="192,527,0,0" Stroke="Black" VerticalAlignment="Top" Width="302" Panel.ZIndex="0" Fill="#1C385B" >
+    <Grid Background="DarkSlateBlue" HorizontalAlignment="Center" Width="800" Height="700" VerticalAlignment="Bottom">
+        <Label Content="SELEZIONARE IL COLORE E LA CASELLA!" Margin="0,-1,0,0" VerticalAlignment="Top" Height="44" FontWeight="UltraBold" FontSize="25" BorderBrush="LavenderBlush" BorderThickness="2" HorizontalAlignment="Center" Width="500"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="100,640,0,0" Stroke="Black" VerticalAlignment="Top" Width="423" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="235,527,522,14" x:Name="btn_Green" Click="btn_Green_Click">
+        <Button Margin="148,640,0,0" x:Name="btn_Green" Click="btn_Green_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -61,7 +24,7 @@
             </Button.Template>
 
         </Button>
-        <Button Margin="192,527,565,14" x:Name="btn_Red" Click="btn_Red_Click">
+        <Button Margin="100,640,0,0" x:Name="btn_Red" Click="btn_Red_Click" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -71,7 +34,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="278,527,479,14" x:Name="btn_Blue" Click="btn_Blue_Click">
+        <Button Margin="196,640,0,0" x:Name="btn_Blue" Click="btn_Blue_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -81,7 +44,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="323,527,434,14" x:Name="btn_Yellow" Click="btn_Yellow_Click">
+        <Button Margin="244,640,0,0" x:Name="btn_Yellow" Click="btn_Yellow_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -91,7 +54,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="366,527,391,14" x:Name="btn_Pink" Click="btn_Pink_Click">
+        <Button Margin="292,640,0,0" x:Name="btn_Pink" Click="btn_Pink_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -101,7 +64,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="409,527,348,14" x:Name="btn_LightBlue" Click="btn_LightBlue_Click" >
+        <Button Margin="340,640,0,0" x:Name="btn_LightBlue" Click="btn_LightBlue_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top" >
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -111,7 +74,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Replay" FontSize="15" Margin="525,521,150,20" Click="btn_Replay" >
+        <Button Content="Replay" FontSize="15" Margin="556,640,0,0" Click="btn_Replay" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top" >
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -133,11 +96,11 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="221,457,0,0" Stroke="Black" VerticalAlignment="Top" Width="217" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,572,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,460,476,81" Click="click_AddColorToSequence" x:Name="btn_2">
+        <Button Margin="294,576,0,0" Click="click_AddColorToSequence" x:Name="btn_2" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -147,7 +110,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,460,150,81" Click="Button_Confirm" x:Name="btn_round_1">
+        <Button Content="Conferma" FontSize="15" Margin="556,576,0,0" Click="Button_Confirm" x:Name="btn_round_1" HorizontalAlignment="Left" Width="124" Height="42" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -169,7 +132,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,360,149,181" Click="Button_Confirm" x:Name="btn_round_3">
+        <Button Content="Conferma" FontSize="15" Margin="556,476,0,0" Click="Button_Confirm" x:Name="btn_round_3" HorizontalAlignment="Left" Width="126" Height="42" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -191,7 +154,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="526,253,148,288" Click="Button_Confirm" x:Name="btn_round_5">
+        <Button Content="Conferma" FontSize="15" Margin="556,368,0,0" Click="Button_Confirm" x:Name="btn_round_5" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -213,7 +176,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,409,150,132" Click="Button_Confirm" x:Name="btn_round_2">
+        <Button Content="Conferma" FontSize="15" Margin="556,524,0,0" Click="Button_Confirm" x:Name="btn_round_2" HorizontalAlignment="Left" Width="124" Height="44" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -235,7 +198,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Margin="329,460,427,80" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_3">
+        <Button Margin="342,576,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_3" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -245,7 +208,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,460,378,80" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_4">
+        <Button Margin="392,576,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_4" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -255,11 +218,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="221,405,0,0" Stroke="Black" VerticalAlignment="Top" Width="217" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,520,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,408,476,133" Click="click_AddColorToSequence" x:Name="btn_6">
+        <Button Margin="294,524,0,0" Click="click_AddColorToSequence" x:Name="btn_6" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -269,7 +232,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,408,427,132" RenderTransformOrigin="0.5,0.5" Click="click_AddColorToSequence" x:Name="btn_7">
+        <Button Margin="342,524,0,0" RenderTransformOrigin="0.5,0.5" Click="click_AddColorToSequence" x:Name="btn_7" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -279,7 +242,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,408,378,132" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_8">
+        <Button Margin="392,524,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_8" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -289,11 +252,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="221,353,0,0" Stroke="Black" VerticalAlignment="Top" Width="217" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,468,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,356,476,185" Click="click_AddColorToSequence" x:Name="btn_10">
+        <Button Margin="294,472,0,0" Click="click_AddColorToSequence" x:Name="btn_10" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -303,7 +266,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,356,526,184" Click="click_AddColorToSequence" x:Name="btn_9">
+        <Button Margin="244,472,0,0" Click="click_AddColorToSequence" x:Name="btn_9" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -313,7 +276,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,356,427,184" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_11">
+        <Button Margin="342,472,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_11" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -323,7 +286,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,356,378,184" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_12">
+        <Button Margin="392,472,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_12" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -333,51 +296,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,249,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="236,364,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,252,476,289" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="230,252,526,288" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="330,252,426,288" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="378,252,378,288" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="0,460,525,81" Click="click_AddColorToSequence" x:Name="btn_1" HorizontalAlignment="Right" Width="44">
+        <Button Margin="244,576,0,0" Click="click_AddColorToSequence" x:Name="btn_1" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -387,7 +310,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,408,526,133" Click="click_AddColorToSequence" x:Name="btn_5">
+        <Button Margin="244,524,0,0" Click="click_AddColorToSequence" x:Name="btn_5" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -397,55 +320,15 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,249,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="236,364,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,252,476,289" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="230,252,526,288" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="330,252,426,288" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="378,252,378,288" RenderTransformOrigin="0.5,0.478" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,249,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="236,364,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,252,476,289" Click="click_AddColorToSequence" x:Name="btn_18">
+        <Button Margin="294,368,0,0" Click="click_AddColorToSequence" x:Name="btn_18" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -455,7 +338,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,252,526,288" Click="click_AddColorToSequence" x:Name="btn_17">
+        <Button Margin="244,368,0,0" Click="click_AddColorToSequence" x:Name="btn_17" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -465,7 +348,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,252,426,288" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_19">
+        <Button Margin="344,368,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_19" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -475,7 +358,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,252,378,288" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_20">
+        <Button Margin="392,368,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_20" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -485,11 +368,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,301,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="236,416,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,304,476,237" Click="click_AddColorToSequence" x:Name="btn_14">
+        <Button Margin="294,420,0,0" Click="click_AddColorToSequence" x:Name="btn_14" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -499,7 +382,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,304,526,236" Click="click_AddColorToSequence" x:Name="btn_13">
+        <Button Margin="244,420,0,0" Click="click_AddColorToSequence" x:Name="btn_13" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -509,7 +392,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,304,426,236" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_15">
+        <Button Margin="344,420,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_15" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -519,7 +402,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,304,378,236" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_16">
+        <Button Margin="392,420,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_16" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -529,11 +412,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="222,194,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="236,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="216" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,199,476,342"  Click="click_AddColorToSequence" x:Name="btn_22">
+        <Button Margin="294,316,0,0"  Click="click_AddColorToSequence" x:Name="btn_22" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -543,7 +426,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,199,526,342" Click="click_AddColorToSequence" x:Name="btn_21">
+        <Button Margin="244,316,0,0" Click="click_AddColorToSequence" x:Name="btn_21" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -553,7 +436,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,199,426,342" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_23">
+        <Button Margin="344,316,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_23" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -563,7 +446,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,199,378,342" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_24">
+        <Button Margin="392,316,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_24" HorizontalAlignment="Left" Width="44" Height="42" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -573,11 +456,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="221,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="217" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,258,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,148,476,393" Click="click_AddColorToSequence" x:Name="btn_26">
+        <Button Margin="294,264,0,0" Click="click_AddColorToSequence" x:Name="btn_26" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -587,7 +470,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,148,526,393" Click="click_AddColorToSequence" x:Name="btn_25">
+        <Button Margin="244,264,0,0" Click="click_AddColorToSequence" x:Name="btn_25" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -597,7 +480,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,148,426,393" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27">
+        <Button Margin="342,264,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27" HorizontalAlignment="Left" Width="46" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -607,7 +490,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,148,378,392" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28">
+        <Button Margin="392,264,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -617,7 +500,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="527,304,148,237" Click="Button_Confirm" x:Name="btn_round_4">
+        <Button Content="Conferma" FontSize="15" Margin="558,420,0,0" Click="Button_Confirm" x:Name="btn_round_4" HorizontalAlignment="Left" Width="124" Height="42" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -639,7 +522,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,148,150,393" Click="Button_Confirm" x:Name="btn_round_7">
+        <Button Content="Conferma" FontSize="15" Margin="556,264,0,0" Click="Button_Confirm" x:Name="btn_round_7" HorizontalAlignment="Left" Width="124" Height="42" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -661,7 +544,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="526,199,149,342" Click="Button_Confirm" x:Name="btn_round_6">
+        <Button Content="Conferma" FontSize="15" Margin="556,314,0,0" Click="Button_Confirm" x:Name="btn_round_6" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -695,7 +578,7 @@
                FontWeight="Bold"
                HorizontalContentAlignment="Center"
                VerticalContentAlignment="Center"
-               BorderThickness="2" Margin="152,486,0,0" Panel.ZIndex="1">
+               BorderThickness="2" Margin="166,602,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="Label">
                     <Setter Property="Template">
@@ -726,7 +609,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,464,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,580,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -757,7 +640,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,486,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,602,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -788,7 +671,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,464,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,580,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -807,7 +690,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,462,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,578,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_5"
             HorizontalAlignment="Left"
@@ -820,7 +703,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,434,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,550,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -851,7 +734,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,412,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,528,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -882,7 +765,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,434,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,550,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -913,7 +796,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,412,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,528,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -932,7 +815,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,410,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_9"
             HorizontalAlignment="Left"
@@ -945,7 +828,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,382,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,498,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -976,7 +859,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,360,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,476,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1007,7 +890,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,382,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,498,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1038,7 +921,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,360,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,476,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1057,7 +940,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,358,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,474,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_13"
             VerticalAlignment="Top"
@@ -1068,7 +951,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,327,628,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,442,0,0" Panel.ZIndex="1" HorizontalAlignment="Left" Width="20">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1099,7 +982,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,305,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,420,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1130,7 +1013,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,327,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,442,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1161,7 +1044,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,305,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,420,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1180,7 +1063,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,303,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="46" Margin="164,418,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_17"
             HorizontalAlignment="Left"
@@ -1193,7 +1076,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,275,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,390,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1224,7 +1107,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="152,253,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="166,368,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1255,7 +1138,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,275,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="186,390,0,0" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1286,7 +1169,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="175,253,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,368,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1305,7 +1188,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,251,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="46" Margin="164,366,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_21"
             HorizontalAlignment="Left"
@@ -1318,7 +1201,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,223,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,338,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1349,7 +1232,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,201,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,316,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1380,7 +1263,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,223,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,338,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1411,7 +1294,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,201,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,316,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1430,7 +1313,7 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,199,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,316,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
         <Label Content=""
                x:Name="lbl_25"
             HorizontalAlignment="Left"
@@ -1443,7 +1326,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,171,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,288,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1474,7 +1357,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,149,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,266,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1505,7 +1388,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,171,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,288,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1536,7 +1419,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,149,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,266,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1555,12 +1438,12 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,147,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
-        <Rectangle HorizontalAlignment="Left" Height="50" Margin="221,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="217" Panel.ZIndex="0" Fill="#1C385B" >
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,264,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="43" Margin="234,163,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,88,476,453" Click="click_AddColorToSequence" x:Name="btn_26_Copia">
+        <Button Margin="292,162,0,0" Click="click_AddColorToSequence" x:Name="btn_26_Copia" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1570,7 +1453,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,88,526,453" Click="click_AddColorToSequence" x:Name="btn_25_Copia">
+        <Button Margin="244,163,0,0" Click="click_AddColorToSequence" x:Name="btn_25_Copia" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1580,7 +1463,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,88,426,453" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia">
+        <Button Margin="342,162,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia" HorizontalAlignment="Left" Width="46" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1590,7 +1473,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,88,378,452" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia">
+        <Button Margin="392,163,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1600,7 +1483,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Conferma" FontSize="15" Margin="525,88,150,453" Click="Button_Confirm" x:Name="btn_round_7_Copia">
+        <Button Content="Conferma" FontSize="15" Margin="554,168,0,0" Click="Button_Confirm" x:Name="btn_round_7_Copia" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#1C385B"/>
@@ -1634,7 +1517,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,111,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,193,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1665,7 +1548,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="151,89,0,0" Panel.ZIndex="1">
+            BorderThickness="2" Margin="164,171,0,0" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1696,7 +1579,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,111,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,193,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1727,7 +1610,7 @@
             FontWeight="Bold"
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"
-            BorderThickness="2" Margin="174,89,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            BorderThickness="2" Margin="188,171,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
             <Label.Style>
                 <Style TargetType="{x:Type Label}">
                     <Setter Property="Template">
@@ -1746,12 +1629,605 @@
                 </Style>
             </Label.Style>
         </Label>
-        <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,87,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
-        <Button Margin="451,527,306,14" x:Name="btn_Orange" Click="btn_Orange_Click" >
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,169,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,210,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
+            <Rectangle.RadiusX>10</Rectangle.RadiusX>
+            <Rectangle.RadiusY>10</Rectangle.RadiusY>
+        </Rectangle>
+        <Button Margin="294,216,0,0" Click="click_AddColorToSequence" x:Name="btn_26_Copia1" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="244,216,0,0" Click="click_AddColorToSequence" x:Name="btn_25_Copia1" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="342,216,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia1" HorizontalAlignment="Left" Width="46" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="392,216,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia1" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Conferma" FontSize="15" Margin="556,216,0,0" Click="Button_Confirm" x:Name="btn_round_7_Copia1" HorizontalAlignment="Left" Width="124" Height="42" VerticalAlignment="Top">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#1C385B"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Padding" Value="10"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                    CornerRadius="20"
+                                    Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label Content=""
+            x:Name="lbl_25_Copia1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,240,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_27_Copia1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,218,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_26_Copia1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,240,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_28_Copia1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,218,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,216,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Button Margin="388,640,0,0" x:Name="btn_Orange" Click="btn_Orange_Click" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top" >
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
                         <Ellipse Fill="Orange" Stroke="OrangeRed" StrokeThickness="2" Panel.ZIndex="1"/>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="433,640,0,0" x:Name="btn_Purple" Click="btn_Purple_Click" HorizontalAlignment="Left" Width="42" Height="44" VerticalAlignment="Top" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="MediumPurple" Stroke="Purple" StrokeThickness="2" Panel.ZIndex="1"/>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,109,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
+            <Rectangle.RadiusX>10</Rectangle.RadiusX>
+            <Rectangle.RadiusY>10</Rectangle.RadiusY>
+        </Rectangle>
+        <Button Margin="294,112,0,0" Click="click_AddColorToSequence" x:Name="btn_26_Copia2" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="243,112,0,0" Click="click_AddColorToSequence" x:Name="btn_25_Copia2" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="343,112,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia2" HorizontalAlignment="Left" Width="46" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="392,112,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia2" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Conferma" FontSize="15" Margin="556,112,0,0" Click="Button_Confirm" x:Name="btn_round_7_Copia2" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#1C385B"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Padding" Value="10"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                    CornerRadius="20"
+                                    Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label Content=""
+            x:Name="lbl_25_Copia2"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,137,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_27_Copia2"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,115,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_26_Copia2"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,137,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_28_Copia2"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,115,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,113,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="234,58,0,0" Stroke="Black" VerticalAlignment="Top" Width="218" Panel.ZIndex="0" Fill="#1C385B" >
+            <Rectangle.RadiusX>10</Rectangle.RadiusX>
+            <Rectangle.RadiusY>10</Rectangle.RadiusY>
+        </Rectangle>
+        <Button Margin="294,64,0,0" Click="click_AddColorToSequence" x:Name="btn_26_Copia3" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="244,64,0,0" Click="click_AddColorToSequence" x:Name="btn_25_Copia3" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="342,64,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia3" HorizontalAlignment="Left" Width="46" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="392,64,0,0" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia3" HorizontalAlignment="Left" Width="44" Height="44" VerticalAlignment="Top">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid x:Name="buttonGrid">
+                        <Ellipse Fill="White" Stroke="LightGray" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Conferma" FontSize="15" Margin="554,63,0,0" Click="Button_Confirm" x:Name="btn_round_7_Copia3" HorizontalAlignment="Left" Width="126" Height="44" VerticalAlignment="Top">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#1C385B"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Padding" Value="10"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" 
+                                    CornerRadius="20"
+                                    Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Label Content=""
+            x:Name="lbl_25_Copia3"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,88,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_27_Copia3"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="164,66,0,0" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_26_Copia3"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,88,0,0" RenderTransformOrigin="0.7,0.552" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Label Content=""
+            x:Name="lbl_28_Copia3"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="20"
+            Height="20"
+            Background="White"
+            Foreground="White"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            BorderThickness="2" Margin="188,66,0,0" RenderTransformOrigin="0.615,0.646" Panel.ZIndex="1">
+            <Label.Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Label}">
+                                <Grid>
+                                    <Ellipse Fill="{TemplateBinding Background}"
+                                        Stroke="{TemplateBinding BorderBrush}"
+                                        StrokeThickness="{TemplateBinding BorderThickness}"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Label.Style>
+        </Label>
+        <Rectangle HorizontalAlignment="Left" Height="44" Margin="164,64,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Button Margin="480,640,0,0" x:Name="btn_Magenta" Click="btn_Magenta_Click" HorizontalAlignment="Left" Width="42" Height="44" VerticalAlignment="Top" >
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="Magenta" Stroke="DarkMagenta" StrokeThickness="2" Panel.ZIndex="1"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>

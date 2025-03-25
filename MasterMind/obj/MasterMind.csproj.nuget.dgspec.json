@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {}
+    "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+    "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
         "projectName": "MasterMindLib",
-        "projectPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
-        "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\obj\\",
+        "projectPath": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj",
+        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {
+    "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
         "projectName": "MasterMind",
-        "projectPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
-        "packagesPath": "C:\\Users\\latif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\obj\\",
+        "projectPath": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMind\\MasterMind.csproj",
+        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMind\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\latif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,14 +91,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
-                "projectPath": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
+              "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj": {
+                "projectPath": "C:\\Users\\Utente\\Desktop\\MasterMind\\MasterMindLib\\MasterMindLib.csproj"
               }
             }
           }
@@ -112,8 +113,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -137,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

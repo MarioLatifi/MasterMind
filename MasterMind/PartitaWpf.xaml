@@ -50,7 +50,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="192,482,565,59" x:Name="btn_Green" Click="btn_Green_Click">
+        <Button Margin="235,482,522,59" x:Name="btn_Green" Click="btn_Green_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -61,7 +61,7 @@
             </Button.Template>
 
         </Button>
-        <Button Margin="235,482,522,59" x:Name="btn_Red" Click="btn_Red_Click">
+        <Button Margin="192,482,565,59" x:Name="btn_Red" Click="btn_Red_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>

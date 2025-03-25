@@ -25,7 +25,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="287,389,470,152" x:Name="btn_Green" Click="btn_Green_Click">
+        <Button Margin="330,389,427,152" x:Name="btn_Green" Click="btn_Green_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -35,7 +35,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="330,389,427,152" x:Name="btn_Red" Click="btn_Red_Click" >
+        <Button Margin="282,389,475,152" x:Name="btn_Red" Click="btn_Red_Click" >
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
