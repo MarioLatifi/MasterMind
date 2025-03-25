@@ -31,31 +31,31 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="265,428,492,112" x:Name="btn_Yellow" Click="btn_Yellow_Click">
+        <Button Margin="265,428,492,112" x:Name="btn_Red" Click="btn_Red_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
-                        <Ellipse Fill="Yellow" Stroke="Gold" StrokeThickness="3" Panel.ZIndex="1"/>
+                        <Ellipse Fill="Red" Stroke="DarkRed" StrokeThickness="3" Panel.ZIndex="1"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="308,428,449,112" x:Name="btn_Pink" Click="btn_Pink_Click">
+        <Button Margin="308,428,449,112" x:Name="btn_Green" Click="btn_Green_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
-                        <Ellipse Fill="LightPink" Stroke="HotPink" StrokeThickness="3" Panel.ZIndex="1"/>
+                        <Ellipse Fill="ForestGreen" Stroke="DarkGreen" StrokeThickness="3" Panel.ZIndex="1"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="351,428,406,112" x:Name="btn_LightBlue" Click="btn_LightBlue_Click" >
+        <Button Margin="351,428,406,112" x:Name="btn_Blue" Click="btn_Blue_Click" >
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
-                        <Ellipse Fill="LightBlue" Stroke="Blue" StrokeThickness="2" Panel.ZIndex="1"/>
+                        <Ellipse Fill="Blue" Stroke="DarkBlue" StrokeThickness="2" Panel.ZIndex="1"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>

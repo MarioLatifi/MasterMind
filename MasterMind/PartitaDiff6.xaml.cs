@@ -76,6 +76,8 @@ namespace MasterMind
                     return System.Windows.Media.Colors.Pink;
                 case Colors.LIGHTBLUE:
                     return System.Windows.Media.Colors.LightBlue;
+                case Colors.ORANGE:
+                    return System.Windows.Media.Colors.Orange;
                 default:
                     return System.Windows.Media.Colors.White;
             }

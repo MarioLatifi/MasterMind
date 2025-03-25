@@ -7,7 +7,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 public enum Colors{
-    WHITE, RED,GREEN,BLUE,LIGHTBLUE,YELLOW,PINK,PURPLE,MAGENTA,BLACK,BROWN
+    WHITE, RED,GREEN,BLUE, YELLOW,PINK,LIGHTBLUE,ORANGE,PURPLE, MAGENTA,BLACK,BROWN
 }
 public enum StatusOfGame
 {

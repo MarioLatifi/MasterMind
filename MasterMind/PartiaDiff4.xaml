@@ -43,7 +43,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="219,477,538,64" x:Name="btn_Red" Click="btn_Red_Click">
+        <Button Margin="264,477,493,64" x:Name="btn_Red" Click="btn_Red_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -53,7 +53,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="262,477,495,64" x:Name="btn_Blue" Click="btn_Blue_Click">
+        <Button Margin="307,477,450,64" x:Name="btn_Blue" Click="btn_Blue_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -63,7 +63,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="307,477,450,64" x:Name="btn_Yellow" Click="btn_Yellow_Click">
+        <Button Margin="352,477,405,64" x:Name="btn_Yellow" Click="btn_Yellow_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
@@ -73,21 +73,11 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="350,477,407,64" x:Name="btn_Pink" Click="btn_Pink_Click">
+        <Button Margin="395,477,362,64" x:Name="btn_Pink" Click="btn_Pink_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
                         <Ellipse Fill="LightPink" Stroke="HotPink" StrokeThickness="3" Panel.ZIndex="1"/>
-                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
-        <Button Margin="393,477,364,64" x:Name="btn_LightBlue" Click="btn_LightBlue_Click" >
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="LightBlue" Stroke="Blue" StrokeThickness="2" Panel.ZIndex="1"/>
                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>
@@ -1347,5 +1337,15 @@
             </Label.Style>
         </Label>
         <Rectangle HorizontalAlignment="Left" Height="45" Margin="150,134,0,0" Stroke="Black" VerticalAlignment="Top" Width="46" Panel.ZIndex="0" Fill="#1C385B"/>
+        <Button Margin="219,477,538,64" x:Name="btn_Red_Copia" Click="btn_Red_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse Fill="ForestGreen" Stroke="DarkGreen" StrokeThickness="3" Panel.ZIndex="1" />
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Window>
