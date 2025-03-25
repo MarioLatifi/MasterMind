@@ -57,7 +57,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="335,476,422,65" x:Name="btn_Pink" Click="btn_Pink_Click">
+        <Button Margin="335,476,422,65" x:Name="btn_Blue" Click="btn_Blue_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>

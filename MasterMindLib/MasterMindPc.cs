@@ -21,7 +21,7 @@
             {
                 int index = rnd.Next(availableColors.Count);
                 Code[i] = availableColors[index];
-                if (Difficulty>6||Difficulty==1||Difficulty==0)
+                if (Difficulty>3||Difficulty==1||Difficulty==0)
                 {
                     availableColors.RemoveAt(index);
                 }

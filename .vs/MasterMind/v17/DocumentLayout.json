@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\latif\\Desktop\\MasterMind\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partitadiff6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitadiff6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partitadiff6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitadiff6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partiadiff4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partiadiff4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partiadiff3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partiadiff3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitawpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partiadiff3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partiadiff3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\partita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermindlib\\mastermindpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E532A95D-FBF5-4B58-904F-C9D669A9B7FE}|MasterMindLib\\MasterMindLib.csproj|solutionrelative:mastermindlib\\mastermindpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partitadiff6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitadiff6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|c:\\users\\latif\\desktop\\mastermind\\mastermind\\partitadiff6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570314E3-27C2-4EA7-8D5A-99118E61D1B6}|MasterMind\\MasterMind.csproj|solutionrelative:mastermind\\partitadiff6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "MasterMindPc.cs",
+              "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindPc.cs",
+              "RelativeDocumentMoniker": "MasterMindLib\\MasterMindPc.cs",
+              "ToolTip": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\MasterMindPc.cs",
+              "RelativeToolTip": "MasterMindLib\\MasterMindPc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:37:23.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PartitaDiff6.xaml.cs",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\PartitaDiff6.xaml.cs",
               "RelativeDocumentMoniker": "MasterMind\\PartitaDiff6.xaml.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PartitaDiff6.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\PartitaDiff6.xaml",
               "RelativeDocumentMoniker": "MasterMind\\PartitaDiff6.xaml",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PartiaDiff4.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\PartiaDiff4.xaml",
               "RelativeDocumentMoniker": "MasterMind\\PartiaDiff4.xaml",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PartitaWpf.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\PartitaWpf.xaml",
               "RelativeDocumentMoniker": "MasterMind\\PartitaWpf.xaml",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PartiaDiff3.xaml",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMind\\PartiaDiff3.xaml",
               "RelativeDocumentMoniker": "MasterMind\\PartiaDiff3.xaml",
@@ -120,13 +137,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Partita.cs",
               "DocumentMoniker": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeDocumentMoniker": "MasterMindLib\\Partita.cs",
               "ToolTip": "C:\\Users\\latif\\Desktop\\MasterMind\\MasterMindLib\\Partita.cs",
               "RelativeToolTip": "MasterMindLib\\Partita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T16:21:04.656Z",
               "EditorCaption": ""
