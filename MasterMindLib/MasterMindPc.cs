@@ -12,7 +12,9 @@
         
         public Colors[] GenerateSecretCode()
         {
+            if (Difficulty == 0||Difficulty==1) { Difficulty = 6; }
             Random rnd = new Random();
+            
             List<Colors> availableColors = Enum.GetValues(typeof(Colors))
                 .Cast<Colors>()
                 .Where(color => (int)color <= Difficulty && color != Colors.WHITE)

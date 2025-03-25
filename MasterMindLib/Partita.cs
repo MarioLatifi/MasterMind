@@ -57,23 +57,35 @@ namespace MasterMindLib
             // aggiunge al vettore game la lista di colori
             Game.Add(ColoriInOrdineDaSinistraVersoDestra);
 
+            // decrementa il numero di tentativi rimasti
+            Tentativi--;
 
+            // controlla se la lista di colori è uguale al codice segreto chiamando il checkgame
             StatusOfThisGame = CheckGame(ColoriInOrdineDaSinistraVersoDestra);
+
             // incrementa il contatore di partite giocate del giocatore
             Player1.PlayedCounter++;
-            // controlla se la lista di colori è uguale al codice segreto chiamando il checkgame
 
             // se è uguale incrementa il contatore di vittorie del giocatore
+            if (StatusOfThisGame == StatusOfGame.WON)
+            {
+                Player1.WonCounter++;
+            }
             // se non è uguale incrementa il contatore di sconfitte del giocatore
-
-            // controlla se lo stato della partita è in progress MA NON QUI, da un altra parte tipo xaml cs
-
-            // calcola quanti colori hai indovinato nella posizione corretta chiamando GetNumOfRightColorsRightPositions <-- giá fatto nel checkgame xché serviva li, non lo sto a riazzerare inutilmente.
+            else if (StatusOfThisGame == StatusOfGame.LOST)
+            {
+                Player1.LostCounter++;
+            }
 
             // calcola quanti colori hai indovinato ma non in posizione corretta chiamando GetNumOfRightColorsWrongPositions
             GetNumOfRightColorsWrongPositions(ColoriInOrdineDaSinistraVersoDestra);
-            // controlla se il counter di partite ha superato il massimo
 
+            // controlla se il counter di partite ha superato il massimo
+            if (Tentativi == 0 && StatusOfThisGame != StatusOfGame.WON)
+            {
+                StatusOfThisGame = StatusOfGame.LOST;
+                Player1.LostCounter++;
+            }
 
             return StatusOfThisGame;
         }
