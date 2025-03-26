@@ -5,7 +5,7 @@
         public Giocatore()//tecnicamente avrei dovuto chiedergli un  nome ma nelal wpf mi sono scordato
         {
         }
-        private int _wonCounter;
+        private int _wonCounter=0;
 
         public int WonCounter
         {
@@ -21,7 +21,7 @@
 
         public int LostCounter
         {
-            get { return LostCounter; }
+            get { return _lostCounter; }
             internal set
             {
                 if (value < 0 || value > PlayedCounter) throw new ArgumentOutOfRangeException("lost counter mustmn't be higher than played's counter or lower than 0 ");

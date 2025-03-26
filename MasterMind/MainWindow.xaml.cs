@@ -46,6 +46,9 @@ namespace MasterMind
         private PartitaDiff3 partitaDiff3;
         private PartitaDiff4 partitaDiff4;
         private PartitaDiff6 partitaDiff6;
+        private PartitaDiff7 partitaDiff7;
+        private PartitaDiff8 partitaDiff8;
+        private PartitaDiff9 partitaDiff9;
 
 
         private void btn_diff_Click(object sender, RoutedEventArgs e)
@@ -71,8 +74,15 @@ namespace MasterMind
                 partitaWpf.Show();//la partita di default
             }
             else
-            {                                 
-                partita = new Partita(giocatore, Difficolta.CheckBoxCounter);
+            {
+                if (Difficolta.CheckBoxCounter == 0 || Difficolta.CheckBoxCounter == 1)
+                {
+                    partita = new Partita(giocatore);
+                }
+                else
+                {
+                    partita = new Partita(giocatore, Difficolta.CheckBoxCounter);
+                }
             }
             if(Difficolta.CheckBoxCounter == 2)
             {
@@ -103,6 +113,21 @@ namespace MasterMind
             {
                 partitaDiff6 = new PartitaDiff6(this, partita);
                 partitaDiff6.Show();
+            }
+            if (Difficolta.CheckBoxCounter == 8)
+            {
+                partitaDiff7 = new PartitaDiff7(this, partita);
+                partitaDiff7.Show();
+            }
+            if (Difficolta.CheckBoxCounter == 9)
+            {
+                partitaDiff8 = new PartitaDiff8(this, partita);
+                partitaDiff8.Show();
+            }
+            if (Difficolta.CheckBoxCounter == 10)
+            {
+                partitaDiff9 = new PartitaDiff9(this, partita);
+                partitaDiff9.Show();
             }
         }
     }

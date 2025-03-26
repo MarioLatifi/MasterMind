@@ -59,6 +59,10 @@ namespace MasterMind
         {
             LastColorToBeClicked = Colors.LIGHTBLUE;
         }
+        private void btn_Orange_Click(object sender, RoutedEventArgs e)
+        {
+            LastColorToBeClicked = Colors.ORANGE;
+        }
 
         private System.Windows.Media.Color GetColor(Colors color)
         {
@@ -103,19 +107,19 @@ namespace MasterMind
                 }
 
                 // Aggiorna l'array ColoriInOrdineDaSinistraVersoDestra
-                if (btn.Name == "btn_1" || btn.Name == "btn_5" || btn.Name == "btn_9" || btn.Name == "btn_13" || btn.Name == "btn_17" || btn.Name == "btn_21" || btn.Name == "btn_25")
+                if (btn.Name == "btn_1" || btn.Name == "btn_5" || btn.Name == "btn_9" || btn.Name == "btn_13" || btn.Name == "btn_17" || btn.Name == "btn_21" || btn.Name == "btn_25" || btn.Name == "btn_29")
                 {
                     ColoriInOrdineDaSinistraVersoDestra[0] = LastColorToBeClicked;
                 }
-                else if (btn.Name == "btn_2" || btn.Name == "btn_6" || btn.Name == "btn_10" || btn.Name == "btn_14" || btn.Name == "btn_18" || btn.Name == "btn_22" || btn.Name == "btn_26")
+                else if (btn.Name == "btn_2" || btn.Name == "btn_6" || btn.Name == "btn_10" || btn.Name == "btn_14" || btn.Name == "btn_18" || btn.Name == "btn_22" || btn.Name == "btn_26" || btn.Name == "btn_30")
                 {
                     ColoriInOrdineDaSinistraVersoDestra[1] = LastColorToBeClicked;
                 }
-                else if (btn.Name == "btn_3" || btn.Name == "btn_7" || btn.Name == "btn_11" || btn.Name == "btn_15" || btn.Name == "btn_19" || btn.Name == "btn_23" || btn.Name == "btn_27")
+                else if (btn.Name == "btn_3" || btn.Name == "btn_7" || btn.Name == "btn_11" || btn.Name == "btn_15" || btn.Name == "btn_19" || btn.Name == "btn_23" || btn.Name == "btn_27" || btn.Name == "btn_31")
                 {
                     ColoriInOrdineDaSinistraVersoDestra[2] = LastColorToBeClicked;
                 }
-                else if (btn.Name == "btn_4" || btn.Name == "btn_8" || btn.Name == "btn_12" || btn.Name == "btn_16" || btn.Name == "btn_20" || btn.Name == "btn_24" || btn.Name == "btn_28")
+                else if (btn.Name == "btn_4" || btn.Name == "btn_8" || btn.Name == "btn_12" || btn.Name == "btn_16" || btn.Name == "btn_20" || btn.Name == "btn_24" || btn.Name == "btn_28" || btn.Name == "btn_32")
                 {
                     ColoriInOrdineDaSinistraVersoDestra[3] = LastColorToBeClicked;
                 }

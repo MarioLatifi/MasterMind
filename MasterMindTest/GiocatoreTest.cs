@@ -31,15 +31,16 @@ namespace MasterMindTest
         public void LostCounter_IncrementsCorrectly()
         {
             partita = new Partita(giocatore, 1);
-            Colors[] attempt = new Colors[] { Colors.RED, Colors.GREEN, Colors.BLUE, Colors.YELLOW };
-            for (int i = 0; i < partita.Tentativi; i++)
+            int tentativi = partita.Tentativi;
+            Colors[] attempt = new Colors[] { Colors.RED, Colors.WHITE, Colors.BLUE, Colors.YELLOW };
+            for (int i = 0; i < tentativi; i++)
             {
                 partita.DoRound(attempt);
             }
             StatusOfGame status = partita.DoRound(attempt);
             Assert.AreEqual(StatusOfGame.LOST, status);
             Assert.AreEqual(1, giocatore.LostCounter);
-            Assert.AreEqual(1, giocatore.PlayedCounter);
+            Assert.AreEqual(3, giocatore.PlayedCounter);
         }
 
         [TestMethod]

@@ -7,7 +7,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 public enum Colors{
-    WHITE, RED,GREEN,BLUE, YELLOW,PINK,LIGHTBLUE,ORANGE,PURPLE, MAGENTA,BLACK,BROWN
+    WHITE, RED,GREEN,BLUE, YELLOW,PINK,LIGHTBLUE,ORANGE,PURPLE, MAGENTA,BROWN, BLACK
 }
 public enum StatusOfGame
 {
@@ -17,11 +17,18 @@ namespace MasterMindLib
 {
     public class Partita
     {
-        public Partita(Giocatore player1, int numOfColors=6 )
+        public Partita(Giocatore player, int numOfColors=6,IGenerator? generator=null )
         {
-            Player1 = player1;
-            MasterMindPc = new MasterMindPc(numOfColors); // Initialize MasterMindPc here
-            SecretCode=MasterMindPc.GenerateSecretCode();
+            Player = player;
+            if (generator==null)
+            {
+                _generator = new MasterMindPc(numOfColors);
+            }
+            else
+            {
+                _generator = generator;
+            }
+            SecretCode = _generator.GenerateSecretCode();
             NumOfColors = numOfColors;
             Tentativi = NumOfColors + 1;
             Colors[] cols = new Colors[NUM_OF_COLORS_TO_GUESS];
@@ -32,11 +39,10 @@ namespace MasterMindLib
                 Game.Add(cols);
             }
         }
-
         private int NUM_OF_COLORS_TO_GUESS = 4;
-
+        private IGenerator _generator;
         public int Tentativi { get; private set; }
-        public Giocatore Player1 { get; set; }
+        public Giocatore Player { get; set; }
         public Colors[] SecretCode { get; private set; }
         public List<Colors[]> Game { get; private set; }
         public int NumOfColors { get; private set; }
@@ -57,26 +63,17 @@ namespace MasterMindLib
             // aggiunge al vettore game la lista di colori
             Game.Add(ColoriInOrdineDaSinistraVersoDestra);
 
-            // decrementa il numero di tentativi rimasti
-            Tentativi--;
-
             // controlla se la lista di colori è uguale al codice segreto chiamando il checkgame
             StatusOfThisGame = CheckGame(ColoriInOrdineDaSinistraVersoDestra);
 
             // incrementa il contatore di partite giocate del giocatore
-            Player1.PlayedCounter++;
+            Player.PlayedCounter++;
 
             // se è uguale incrementa il contatore di vittorie del giocatore
             if (StatusOfThisGame == StatusOfGame.WON)
             {
-                Player1.WonCounter++;
+                Player.WonCounter++;
             }
-            // se non è uguale incrementa il contatore di sconfitte del giocatore
-            else if (StatusOfThisGame == StatusOfGame.LOST)
-            {
-                Player1.LostCounter++;
-            }
-
             // calcola quanti colori hai indovinato ma non in posizione corretta chiamando GetNumOfRightColorsWrongPositions
             GetNumOfRightColorsWrongPositions(ColoriInOrdineDaSinistraVersoDestra);
 
@@ -84,8 +81,10 @@ namespace MasterMindLib
             if (Tentativi == 0 && StatusOfThisGame != StatusOfGame.WON)
             {
                 StatusOfThisGame = StatusOfGame.LOST;
-                Player1.LostCounter++;
+                Player.LostCounter++;
             }
+            // decrementa il numero di tentativi rimasti
+            Tentativi--;
 
             return StatusOfThisGame;
         }
@@ -104,7 +103,6 @@ namespace MasterMindLib
                     }
                 }
             }
-
         }
         private void GetNumOfRightColorsRightPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
@@ -126,7 +124,7 @@ namespace MasterMindLib
             {
                 return StatusOfGame.WON;
             }
-            else if (Player1.PlayedCounter > Tentativi)
+            else if (Tentativi<=0)
             {
                 return StatusOfGame.LOST;
             }
@@ -135,6 +133,5 @@ namespace MasterMindLib
                 return StatusOfGame.INPROGRESS;
             }
         }
-        public MasterMindPc MasterMindPc { get; }
     }
 }

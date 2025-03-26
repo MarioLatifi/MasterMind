@@ -1560,7 +1560,7 @@
             <Rectangle.RadiusX>10</Rectangle.RadiusX>
             <Rectangle.RadiusY>10</Rectangle.RadiusY>
         </Rectangle>
-        <Button Margin="280,88,476,453" Click="click_AddColorToSequence" x:Name="btn_26_Copia">
+        <Button Margin="280,88,476,453" Click="click_AddColorToSequence" x:Name="btn_30">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1570,7 +1570,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="230,88,526,453" Click="click_AddColorToSequence" x:Name="btn_25_Copia">
+        <Button Margin="230,88,526,453" Click="click_AddColorToSequence" x:Name="btn_29">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1580,7 +1580,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="329,88,426,453" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_27_Copia">
+        <Button Margin="329,88,426,453" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_31">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1590,7 +1590,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Margin="378,88,378,452" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_28_Copia">
+        <Button Margin="378,88,378,452" RenderTransformOrigin="0.5,0.478" Click="click_AddColorToSequence" x:Name="btn_32">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid x:Name="buttonGrid">
@@ -1623,7 +1623,7 @@
             </Button.Style>
         </Button>
         <Label Content=""
-            x:Name="lbl_25_Copia"
+            x:Name="lbl_29"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Width="20"
@@ -1654,7 +1654,7 @@
             </Label.Style>
         </Label>
         <Label Content=""
-            x:Name="lbl_27_Copia"
+            x:Name="lbl_31"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Width="20"
@@ -1685,7 +1685,7 @@
             </Label.Style>
         </Label>
         <Label Content=""
-            x:Name="lbl_26_Copia"
+            x:Name="lbl_30"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Width="20"
@@ -1716,7 +1716,7 @@
             </Label.Style>
         </Label>
         <Label Content=""
-            x:Name="lbl_28_Copia"
+            x:Name="lbl_32"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Width="20"
