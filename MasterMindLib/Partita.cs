@@ -91,15 +91,19 @@ namespace MasterMindLib
         private void GetNumOfRightColorsWrongPositions(Colors[] ColoriInOrdineDaSinistraVersoDestra)
         {
             ColWrongPosButRightCol = 0;
-            // controlla quanti colori hai indovinato ma non in posizione corretta
+            List<Colors?> copyColoriInOrdineDaSinistraVersoDestra = new List<Colors?>(ColoriInOrdineDaSinistraVersoDestra.Cast<Colors?>());
+            List<Colors?> copySecretCode = new List<Colors?>(SecretCode.Cast<Colors?>());
+
             for (int i = 0; i < NUM_OF_COLORS_TO_GUESS; i++)
             {
                 for (int j = 0; j < NUM_OF_COLORS_TO_GUESS; j++)
                 {
-                    if (ColoriInOrdineDaSinistraVersoDestra[j] == SecretCode[i] && j != i)
+                    if (copyColoriInOrdineDaSinistraVersoDestra[j] == copySecretCode[i] && j != i&&copyColoriInOrdineDaSinistraVersoDestra!=null)
                     {
                         ColWrongPosButRightCol++;
-
+                        copyColoriInOrdineDaSinistraVersoDestra[j] = null;
+                        copySecretCode[i] = null;
+                        break;
                     }
                 }
             }

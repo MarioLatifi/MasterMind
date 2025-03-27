@@ -63,7 +63,6 @@ namespace MasterMind
             this.Hide();
             //devo settare una variabile globale di tipo Difficoltá che mi permette di creare la partita
             //se la variabile vale 0 o ad 1 (non cambiata) uso il costruttore di default
-
             Partita partita; // dichiarazione della variabile partita
 
             //Partita Partita = new Partita(giocatore, [classe che genera colori]); creo qui la partita
